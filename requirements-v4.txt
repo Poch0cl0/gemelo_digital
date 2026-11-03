@@ -1,0 +1,5 @@
+# Versions actually exercised in the existing environment. Clean install is verified separately.
+numpy==2.4.4
+scipy==1.16.2
+matplotlib==3.9.4
+langgraph==1.2.12

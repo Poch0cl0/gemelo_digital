@@ -1,0 +1,1288 @@
+[
+  {
+    "doi": "10.1007/s10479-015-2019-x",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Amaran, S., Sahinidis, N. V., Sharda, B., & Bury, S. J. (2016). Simulation optimization: A review of algorithms and applications. Annals of Operations Research, 240(1), 351–380. https://doi.org/10.1007/s10479-015-2019-x"
+  },
+  {
+    "doi": "10.3390/jpm12081255",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Armeni, P., Polat, I., De Rossi, L. M., Diaferia, L., Meregalli, S., & Gatti, A. (2022). Digital twins in healthcare: Is it the beginning of a new era of evidence-based medicine? A critical review. Journal of Personalized Medicine, 12(8), 1255. https://doi.org/10.3390/jpm12081255"
+  },
+  {
+    "doi": "10.1287/opre.1100.0865",
+    "status": "found",
+    "title": [
+      "The Price of Fairness"
+    ],
+    "authors": [
+      {
+        "given": "Dimitris",
+        "family": "Bertsimas",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Operations Research Center, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vivek F.",
+        "family": "Farias",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Operations Research Center, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nikolaos",
+        "family": "Trichakis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Operations Research Center, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Operations Research"
+    ],
+    "volume": "59",
+    "issue": "1",
+    "page": "17-31",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          2
+        ]
+      ]
+    },
+    "original": "Bertsimas, D., Farias, V. F., & Trichakis, N. (2011). The price of fairness. Operations Research, 59(1), 17–31. https://doi.org/10.1287/opre.1100.0865"
+  },
+  {
+    "doi": "10.1073/pnas.082080899",
+    "status": "found",
+    "title": [
+      "Agent-based modeling: Methods and techniques for simulating human systems"
+    ],
+    "authors": [
+      {
+        "given": "Eric",
+        "family": "Bonabeau",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Icosystem Corporation, 545 Concord Avenue, Cambridge, MA 02138"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Proceedings of the National Academy of Sciences"
+    ],
+    "volume": "99",
+    "issue": "suppl_3",
+    "page": "7280-7287",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2002,
+          5,
+          14
+        ]
+      ]
+    },
+    "original": "Bonabeau, E. (2002). Agent-based modeling: Methods and techniques for simulating human systems. Proceedings of the National Academy of Sciences, 99(Suppl. 3), 7280–7287. https://doi.org/10.1073/pnas.082080899"
+  },
+  {
+    "doi": "10.1016/j.ejor.2018.10.025",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Brailsford, S. C., Eldabi, T., Kunc, M., Mustafee, N., & Osorio, A. F. (2019). Hybrid simulation modelling in operational research: A state-of-the-art review. European Journal of Operational Research, 278(3), 721–737. https://doi.org/10.1016/j.ejor.2018.10.025"
+  },
+  {
+    "doi": "10.1057/jos.2009.10",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Brailsford, S. C., Harper, P. R., Patel, B., & Pitt, M. (2009). An analysis of the academic literature on simulation and modelling in health care. Journal of Simulation, 3(3), 130–140. https://doi.org/10.1057/jos.2009.10"
+  },
+  {
+    "doi": "10.3389/fgene.2018.00031",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Bruynseels, K., Santoni de Sio, F., & van den Hoven, J. (2018). Digital twins in health care: Ethical implications of an emerging engineering paradigm. Frontiers in Genetics, 9, 31. https://doi.org/10.3389/fgene.2018.00031"
+  },
+  {
+    "doi": "10.1057/jos.2012.18",
+    "status": "found",
+    "title": [
+      "A framework for specifying a discrete-event simulation conceptual model"
+    ],
+    "authors": [
+      {
+        "given": "L",
+        "family": "Chwif",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Simulate Tecnologia de Simulação Ltda Sao Paulo SP Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J",
+        "family": "Banks",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tecnológico de Monterrey\rAv. Eugenio Garza Sada 2501\rMonterrey México"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J P",
+        "family": "de Moura Filho",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "DHL Exel Supply Chain\rAv. Dr José Luiz Mazzali, 450\r Louveira SP Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B",
+        "family": "Santini",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "DHL Exel Supply Chain\rAv. Dr José Luiz Mazzali, 450\r Louveira SP Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Journal of Simulation"
+    ],
+    "volume": "7",
+    "issue": "1",
+    "page": "50-60",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          2
+        ]
+      ]
+    },
+    "original": "Chwif, L., Banks, J., de Moura Filho, J. P., & Santini, B. (2013). A framework for specifying a discrete-event simulation conceptual model. Journal of Simulation, 7(1), 50–60. https://doi.org/10.1057/jos.2012.18"
+  },
+  {
+    "doi": "10.2196/37641",
+    "status": "found",
+    "title": [
+      "Digital Twins for Managing Health Care Systems: Rapid Literature Review"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4293-0404",
+        "authenticated-orcid": false,
+        "given": "Safa",
+        "family": "Elkefi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9239-3723",
+        "authenticated-orcid": false,
+        "given": "Onur",
+        "family": "Asan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Journal of Medical Internet Research"
+    ],
+    "volume": "24",
+    "issue": "8",
+    "page": "e37641",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          16
+        ]
+      ]
+    },
+    "original": "Elkefi, S., & Asan, O. (2022). Digital twins for managing health care systems: Rapid literature review. Journal of Medical Internet Research, 24(8), e37641. https://doi.org/10.2196/37641"
+  },
+  {
+    "doi": "10.1056/NEJMsb2005114",
+    "status": "found",
+    "title": [
+      "Fair Allocation of Scarce Medical Resources in the Time of Covid-19"
+    ],
+    "authors": [
+      {
+        "given": "Ezekiel J.",
+        "family": "Emanuel",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "From the Department of Medical Ethics and Health Policy, Perelman School of Medicine, University of Pennsylvania, Philadelphia (E.J.E., A.G., C.Z., C.B.); the University of Denver Sturm College of Law, Denver (G.P.); the Division of Clinical Public Health, Dalla Lana School of Public Health, University of Toronto, Toronto (R.U.), and the School of Health Studies, Western University, London, ON (M.S.) — both in Canada; the Preventive Medicine Department, Federal University of São Paulo, São Paulo (B..."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Govind",
+        "family": "Persad",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Medical Ethics and Health Policy, Perelman School of Medicine, University of Pennsylvania, Philadelphia (E.J.E., A.G., C.Z., C.B.); the University of Denver Sturm College of Law, Denver (G.P.); the Division of Clinical Public Health, Dalla Lana School of Public Health, University of Toronto, Toronto (R.U.), and the School of Health Studies, Western University, London, ON (M.S.) — both in Canada; the Preventive Medicine Department, Federal University of São Paulo, São Paulo (B..."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ross",
+        "family": "Upshur",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Medical Ethics and Health Policy, Perelman School of Medicine, University of Pennsylvania, Philadelphia (E.J.E., A.G., C.Z., C.B.); the University of Denver Sturm College of Law, Denver (G.P.); the Division of Clinical Public Health, Dalla Lana School of Public Health, University of Toronto, Toronto (R.U.), and the School of Health Studies, Western University, London, ON (M.S.) — both in Canada; the Preventive Medicine Department, Federal University of São Paulo, São Paulo (B..."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Beatriz",
+        "family": "Thome",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Medical Ethics and Health Policy, Perelman School of Medicine, University of Pennsylvania, Philadelphia (E.J.E., A.G., C.Z., C.B.); the University of Denver Sturm College of Law, Denver (G.P.); the Division of Clinical Public Health, Dalla Lana School of Public Health, University of Toronto, Toronto (R.U.), and the School of Health Studies, Western University, London, ON (M.S.) — both in Canada; the Preventive Medicine Department, Federal University of São Paulo, São Paulo (B..."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Parker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Medical Ethics and Health Policy, Perelman School of Medicine, University of Pennsylvania, Philadelphia (E.J.E., A.G., C.Z., C.B.); the University of Denver Sturm College of Law, Denver (G.P.); the Division of Clinical Public Health, Dalla Lana School of Public Health, University of Toronto, Toronto (R.U.), and the School of Health Studies, Western University, London, ON (M.S.) — both in Canada; the Preventive Medicine Department, Federal University of São Paulo, São Paulo (B..."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aaron",
+        "family": "Glickman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Medical Ethics and Health Policy, Perelman School of Medicine, University of Pennsylvania, Philadelphia (E.J.E., A.G., C.Z., C.B.); the University of Denver Sturm College of Law, Denver (G.P.); the Division of Clinical Public Health, Dalla Lana School of Public Health, University of Toronto, Toronto (R.U.), and the School of Health Studies, Western University, London, ON (M.S.) — both in Canada; the Preventive Medicine Department, Federal University of São Paulo, São Paulo (B..."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cathy",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Medical Ethics and Health Policy, Perelman School of Medicine, University of Pennsylvania, Philadelphia (E.J.E., A.G., C.Z., C.B.); the University of Denver Sturm College of Law, Denver (G.P.); the Division of Clinical Public Health, Dalla Lana School of Public Health, University of Toronto, Toronto (R.U.), and the School of Health Studies, Western University, London, ON (M.S.) — both in Canada; the Preventive Medicine Department, Federal University of São Paulo, São Paulo (B..."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Connor",
+        "family": "Boyle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Medical Ethics and Health Policy, Perelman School of Medicine, University of Pennsylvania, Philadelphia (E.J.E., A.G., C.Z., C.B.); the University of Denver Sturm College of Law, Denver (G.P.); the Division of Clinical Public Health, Dalla Lana School of Public Health, University of Toronto, Toronto (R.U.), and the School of Health Studies, Western University, London, ON (M.S.) — both in Canada; the Preventive Medicine Department, Federal University of São Paulo, São Paulo (B..."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maxwell",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Medical Ethics and Health Policy, Perelman School of Medicine, University of Pennsylvania, Philadelphia (E.J.E., A.G., C.Z., C.B.); the University of Denver Sturm College of Law, Denver (G.P.); the Division of Clinical Public Health, Dalla Lana School of Public Health, University of Toronto, Toronto (R.U.), and the School of Health Studies, Western University, London, ON (M.S.) — both in Canada; the Preventive Medicine Department, Federal University of São Paulo, São Paulo (B..."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James P.",
+        "family": "Phillips",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Medical Ethics and Health Policy, Perelman School of Medicine, University of Pennsylvania, Philadelphia (E.J.E., A.G., C.Z., C.B.); the University of Denver Sturm College of Law, Denver (G.P.); the Division of Clinical Public Health, Dalla Lana School of Public Health, University of Toronto, Toronto (R.U.), and the School of Health Studies, Western University, London, ON (M.S.) — both in Canada; the Preventive Medicine Department, Federal University of São Paulo, São Paulo (B..."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "New England Journal of Medicine"
+    ],
+    "volume": "382",
+    "issue": "21",
+    "page": "2049-2055",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          21
+        ]
+      ]
+    },
+    "original": "Emanuel, E. J., Persad, G., Upshur, R., Thome, B., Parker, M., Glickman, A., Zhang, C., Boyle, C., Smith, M., & Phillips, J. P. (2020). Fair allocation of scarce medical resources in the time of COVID-19. New England Journal of Medicine, 382(21), 2049–2055. https://doi.org/10.1056/NEJMsb2005114"
+  },
+  {
+    "doi": "10.1016/j.simpat.2014.03.007",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Figueira, G., & Almada-Lobo, B. (2014). Hybrid simulation–optimization methods: A taxonomy and discussion. Simulation Modelling Practice and Theory, 46, 118–134. https://doi.org/10.1016/j.simpat.2014.03.007"
+  },
+  {
+    "doi": "10.1093/pubmed/fdg075",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Fone, D., Hollinghurst, S., Temple, M., Round, A., Lester, N., Weightman, A., Roberts, K., Coyle, E., Bevan, G., & Palmer, S. (2003). Systematic review of the use and value of computer simulation modelling in population health and health care delivery. Journal of Public Health, 25(4), 325–335. https://doi.org/10.1093/pubmed/fdg075"
+  },
+  {
+    "doi": "10.1109/ACCESS.2020.2998358",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Fuller, A., Fan, Z., Day, C., & Barlow, C. (2020). Digital twin: Enabling technologies, challenges and open research. IEEE Access, 8, 108952–108971. https://doi.org/10.1109/ACCESS.2020.2998358"
+  },
+  {
+    "doi": "10.18564/jasss.4259",
+    "status": "found",
+    "title": [
+      "The ODD Protocol for Describing Agent-Based and Other Simulation Models: A Second Update to Improve Clarity, Replication, and Structural Realism"
+    ],
+    "authors": [
+      {
+        "given": "Volker",
+        "family": "Grimm",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Steven F.",
+        "family": "Railsback",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christian E.",
+        "family": "Vincenot",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Uta",
+        "family": "Berger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cara",
+        "family": "Gallagher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Donald L.",
+        "family": "DeAngelis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bruce",
+        "family": "Edmonds",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiaqi",
+        "family": "Ge",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jarl",
+        "family": "Giske",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jürgen",
+        "family": "Groeneveld",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alice S.A.",
+        "family": "Johnston",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexander",
+        "family": "Milles",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jacob",
+        "family": "Nabe-Nielsen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. Gareth",
+        "family": "Polhill",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Viktoriia",
+        "family": "Radchuk",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marie-Sophie",
+        "family": "Rohwäder",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard A.",
+        "family": "Stillman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jan C.",
+        "family": "Thiele",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Ayllón",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Journal of Artificial Societies and Social Simulation"
+    ],
+    "volume": "23",
+    "issue": "2",
+    "page": null,
+    "article_number": "7",
+    "published": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "original": "Grimm, V., Railsback, S. F., Vincenot, C. E., Berger, U., Gallagher, C., DeAngelis, D. L., Edmonds, B., Ge, J., Giske, J., Groeneveld, J., Johnston, A. S. A., Milles, A., Nabe-Nielsen, J., Polhill, J. G., Radchuk, V., Rohwäder, M. S., Stillman, R. A., Thiele, J. C., & Ayllón, D. (2020). The ODD protocol for describing agent-based and other simulation models: A second update to improve clarity, replication, and structural realism. Journal of Artificial Societies and Social Simulation, 23(2), 7. https://doi.org/10.18564/jasss.4259"
+  },
+  {
+    "doi": "10.1057/jos.2009.25",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Günal, M. M., & Pidd, M. (2010). Discrete event simulation for performance modelling in health care: A review of the literature. Journal of Simulation, 4(1), 42–51. https://doi.org/10.1057/jos.2009.25"
+  },
+  {
+    "doi": "10.1007/s00134-010-1761-4",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Hick, J. L., Christian, M. D., & Sprung, C. L. (2010). Chapter 2. Surge capacity and infrastructure considerations for mass critical care. Intensive Care Medicine, 36(S1), 11–20. https://doi.org/10.1007/s00134-010-1761-4"
+  },
+  {
+    "doi": "10.1016/j.annemergmed.2011.06.012",
+    "status": "found",
+    "title": [
+      "Allocating Scarce Resources in Disasters: Emergency Department Principles"
+    ],
+    "authors": [
+      {
+        "given": "John L.",
+        "family": "Hick",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dan",
+        "family": "Hanfling",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stephen V.",
+        "family": "Cantrill",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Annals of Emergency Medicine"
+    ],
+    "volume": "59",
+    "issue": "3",
+    "page": "177-187",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          3
+        ]
+      ]
+    },
+    "original": "Hick, J. L., Hanfling, D., & Cantrill, S. V. (2012). Allocating scarce resources in disasters: Emergency department principles. Annals of Emergency Medicine, 59(3), 177–187. https://doi.org/10.1016/j.annemergmed.2011.06.012"
+  },
+  {
+    "doi": "10.1016/j.annemergmed.2004.04.011",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Hick, J. L., Hanfling, D., Burstein, J. L., DeAtley, C., Barbisch, D., Bogdan, G. M., & Cantrill, S. (2004). Health care facility and community strategies for patient care surge capacity. Annals of Emergency Medicine, 44(3), 253–261. https://doi.org/10.1016/j.annemergmed.2004.04.011"
+  },
+  {
+    "doi": "10.2105/AJPH.2005.062059",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Homer, J. B., & Hirsch, G. B. (2006). System dynamics modeling for public health: Background and opportunities. American Journal of Public Health, 96(3), 452–458. https://doi.org/10.2105/AJPH.2005.062059"
+  },
+  {
+    "doi": "10.1016/j.annemergmed.2008.03.014",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Hoot, N. R., & Aronsky, D. (2008). Systematic review of emergency department crowding: Causes, effects, and solutions. Annals of Emergency Medicine, 52(2), 126–136.e1. https://doi.org/10.1016/j.annemergmed.2008.03.014"
+  },
+  {
+    "doi": "10.1016/j.cirpj.2020.02.002",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Jones, D., Snider, C., Nassehi, A., Yon, J., & Hicks, B. (2020). Characterising the digital twin: A systematic literature review. CIRP Journal of Manufacturing Science and Technology, 29, 36–52. https://doi.org/10.1016/j.cirpj.2020.02.002"
+  },
+  {
+    "doi": "10.1038/s41746-024-01073-0",
+    "status": "found",
+    "title": [
+      "Digital twins for health: a scoping review"
+    ],
+    "authors": [
+      {
+        "given": "Evangelia",
+        "family": "Katsoulakis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huanmei",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6234-8449",
+        "authenticated-orcid": false,
+        "given": "Leili",
+        "family": "Shahriyari",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Fletcher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2298-5974",
+        "authenticated-orcid": false,
+        "given": "Jinwei",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luke",
+        "family": "Achenie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hongfang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pamela",
+        "family": "Jackson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ying",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tanveer",
+        "family": "Syeda-Mahmood",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Tuli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jun",
+        "family": "Deng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "npj Digital Medicine"
+    ],
+    "volume": "7",
+    "issue": "1",
+    "page": null,
+    "article_number": "77",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          22
+        ]
+      ]
+    },
+    "original": "Katsoulakis, E., Wang, Q., Wu, H., Shahriyari, L., Fletcher, R., Liu, J., Achenie, L., Liu, H., Jackson, P., Xiao, Y., Syeda-Mahmood, T., Tuli, R., & Deng, J. (2024). Digital twins for health: A scoping review. npj Digital Medicine, 7(1), 77. https://doi.org/10.1038/s41746-024-01073-0"
+  },
+  {
+    "doi": "10.1016/j.ifacol.2018.08.474",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Kritzinger, W., Karner, M., Traar, G., Henjes, J., & Sihn, W. (2018). Digital Twin in manufacturing: A categorical literature review and classification. IFAC-PapersOnLine, 51(11), 1016–1022. https://doi.org/10.1016/j.ifacol.2018.08.474"
+  },
+  {
+    "doi": "10.1038/s43588-024-00607-6",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Laubenbacher, R., Mehrad, B., Shmulevich, I., & Trayanova, N. (2024). Digital twins in medicine. Nature Computational Science, 4(3), 184–191. https://doi.org/10.1038/s43588-024-00607-6"
+  },
+  {
+    "doi": "10.1057/jos.2010.3",
+    "status": "found",
+    "title": [
+      "Tutorial on agent-based modelling and simulation"
+    ],
+    "authors": [
+      {
+        "given": "C M",
+        "family": "Macal",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Decision &amp; Information Sciences DivisionCenter for Complex Adaptive Agent Systems Simulation, Argonne National Laboratory Argonne Il USA"
+          },
+          {
+            "name": "Computation Institute, The University of Chicago Chicago Il USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M J",
+        "family": "North",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Decision &amp; Information Sciences DivisionCenter for Complex Adaptive Agent Systems Simulation, Argonne National Laboratory Argonne Il USA"
+          },
+          {
+            "name": "Computation Institute, The University of Chicago Chicago Il USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Journal of Simulation"
+    ],
+    "volume": "4",
+    "issue": "3",
+    "page": "151-162",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          9
+        ]
+      ]
+    },
+    "original": "Macal, C. M., & North, M. J. (2010). Tutorial on agent-based modelling and simulation. Journal of Simulation, 4(3), 151–162. https://doi.org/10.1057/jos.2010.3"
+  },
+  {
+    "doi": "10.1016/j.heliyon.2023.e19390",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Machado, T. M., & Berssaneti, F. T. (2023). Literature review of digital twin in healthcare. Heliyon, 9(9), e19390. https://doi.org/10.1016/j.heliyon.2023.e19390"
+  },
+  {
+    "doi": "10.1080/17477778.2018.1442155",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Monks, T., Currie, C. S. M., Onggo, B. S., Robinson, S., Kunc, M., & Taylor, S. J. E. (2019). Strengthening the reporting of empirical simulation studies: Introducing the STRESS guidelines. Journal of Simulation, 13(1), 55–67. https://doi.org/10.1080/17477778.2018.1442155"
+  },
+  {
+    "doi": "10.1371/journal.pone.0203316",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Morley, C., Unwin, M., Peterson, G. M., Stankovich, J., & Kinsman, L. (2018). Emergency department crowding: A systematic review of causes, consequences and solutions. PLOS ONE, 13(8), e0203316. https://doi.org/10.1371/journal.pone.0203316"
+  },
+  {
+    "doi": "10.1002/sim.8086",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Morris, T. P., White, I. R., & Crowther, M. J. (2019). Using simulation studies to evaluate statistical methods. Statistics in Medicine, 38(11), 2074–2102. https://doi.org/10.1002/sim.8086"
+  },
+  {
+    "doi": "10.3390/su15043412",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Moyaux, T., Liu, Y., Bouleux, G., & Cheutet, V. (2023). An agent-based architecture of the digital twin for an emergency department. Sustainability, 15(4), 3412. https://doi.org/10.3390/su15043412"
+  },
+  {
+    "doi": "10.1109/WSC.2017.8247903",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Mustafee, N., Brailsford, S., Djanatliev, A., Eldabi, T., Kunc, M., & Tolk, A. (2017). Purpose and benefits of hybrid simulation: Contributing to the convergence of its definition. In 2017 Winter Simulation Conference (WSC) (pp. 1631–1645). IEEE. https://doi.org/10.1109/WSC.2017.8247903"
+  },
+  {
+    "doi": "10.1016/j.ejor.2024.01.027",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Nguyen, L. K. N., Howick, S., & Megiddo, I. (2024). A framework for conceptualising hybrid system dynamics and agent-based simulation models. European Journal of Operational Research, 315(3), 1153–1166. https://doi.org/10.1016/j.ejor.2024.01.027"
+  },
+  {
+    "doi": "10.1007/s10796-024-10536-4",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Pellegrino, G., Gervasi, M., Angelelli, M., & Corallo, A. (2025). A conceptual framework for digital twin in healthcare: Evidence from a systematic meta-review. Information Systems Frontiers, 27(1), 7–32. https://doi.org/10.1007/s10796-024-10536-4"
+  },
+  {
+    "doi": "10.1109/ACCESS.2020.2970143",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Rasheed, A., San, O., & Kvamsdal, T. (2020). Digital twin: Values, challenges and enablers from a modeling perspective. IEEE Access, 8, 21980–22012. https://doi.org/10.1109/ACCESS.2020.2970143"
+  },
+  {
+    "doi": "10.1016/j.ijdrr.2024.104281",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Režek, P., & Žvanut, B. (2024). Towards optimal decision making in mass casualty incidents management through ICT: A systematic review. International Journal of Disaster Risk Reduction, 102, 104281. https://doi.org/10.1016/j.ijdrr.2024.104281"
+  },
+  {
+    "doi": "10.2196/55015",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Riahi, V., Diouf, I., Khanna, S., Boyle, J., & Hassanzadeh, H. (2025). Digital twins for clinical and operational decision-making: Scoping review. Journal of Medical Internet Research, 27, e55015. https://doi.org/10.2196/55015"
+  },
+  {
+    "doi": "10.1057/palgrave.jors.2602368",
+    "status": "found",
+    "title": [
+      "Conceptual modelling for simulation Part I: definition and requirements"
+    ],
+    "authors": [
+      {
+        "given": "S",
+        "family": "Robinson",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Warwick Coventry UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Journal of the Operational Research Society"
+    ],
+    "volume": "59",
+    "issue": "3",
+    "page": "278-290",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          3
+        ]
+      ]
+    },
+    "original": "Robinson, S. (2008a). Conceptual modelling for simulation Part I: Definition and requirements. Journal of the Operational Research Society, 59(3), 278–290. https://doi.org/10.1057/palgrave.jors.2602368"
+  },
+  {
+    "doi": "10.1057/palgrave.jors.2602369",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Robinson, S. (2008b). Conceptual modelling for simulation Part II: A framework for conceptual modelling. Journal of the Operational Research Society, 59(3), 291–304. https://doi.org/10.1057/palgrave.jors.2602369"
+  },
+  {
+    "doi": "10.1197/j.aem.2005.04.003",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Sacco, W. J., Navin, D. M., Fiedler, K. E., Waddell, R. K., II, Long, W. B., & Buckman, R. F. (2005). Precise formulation and evidence-based application of resource-constrained triage. Academic Emergency Medicine, 12(8), 759–770. https://doi.org/10.1197/j.aem.2005.04.003"
+  },
+  {
+    "doi": "10.1016/j.cpc.2009.09.018",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Saltelli, A., Annoni, P., Azzini, I., Campolongo, F., Ratto, M., & Tarantola, S. (2010). Variance based sensitivity analysis of model output: Design and estimator for the total sensitivity index. Computer Physics Communications, 181(2), 259–270. https://doi.org/10.1016/j.cpc.2009.09.018"
+  },
+  {
+    "doi": "10.1057/jos.2012.20",
+    "status": "found",
+    "title": [
+      "Verification and validation of simulation models"
+    ],
+    "authors": [
+      {
+        "given": "R G",
+        "family": "Sargent",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Syracuse University Syracuse USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Journal of Simulation"
+    ],
+    "volume": "7",
+    "issue": "1",
+    "page": "12-24",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          2
+        ]
+      ]
+    },
+    "original": "Sargent, R. G. (2013). Verification and validation of simulation models. Journal of Simulation, 7(1), 12–24. https://doi.org/10.1057/jos.2012.20"
+  },
+  {
+    "doi": "10.1016/j.compind.2021.103469",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Semeraro, C., Lezoche, M., Panetto, H., & Dassisti, M. (2021). Digital twin paradigm: A systematic literature review. Computers in Industry, 130, 103469. https://doi.org/10.1016/j.compind.2021.103469"
+  },
+  {
+    "doi": "10.1016/j.ejor.2018.04.032",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Taylor, S. J. E. (2019). Distributed simulation: State-of-the-art and potential for operational research. European Journal of Operational Research, 273(1), 1–19. https://doi.org/10.1016/j.ejor.2018.04.032"
+  },
+  {
+    "doi": "10.1016/j.ejor.2020.10.010",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "original": "Tolk, A., Harper, A., & Mustafee, N. (2021). Hybrid models as transdisciplinary research enablers. European Journal of Operational Research, 291(3), 1075–1090. https://doi.org/10.1016/j.ejor.2020.10.010"
+  }
+]

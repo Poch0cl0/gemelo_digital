@@ -1,0 +1,5 @@
+.export-tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 18px;font:12px Arial,sans-serif;color:#334550}
+.export-tools label{display:flex;align-items:center;gap:5px}.export-tools button,.export-tools select{width:auto;min-height:30px;padding:5px 10px;font:inherit;border:1px solid #aebcc4;border-radius:5px;background:white;color:#183d48;cursor:pointer}
+.export-tools [role=status]{flex-basis:100%}.export-preview{margin:12mm;font:14px Arial,sans-serif;background:white;color:#162530}.export-preview svg{display:block;width:100%;height:auto;margin:0 auto 12mm;break-after:page}.single-column{max-width:90mm}.double-column{max-width:180mm}
+.table-wrap>.export-tools{position:sticky;top:0;left:0;background:white;z-index:3;padding:6px}
+@page{size:A4;margin:12mm}@media print{.export-preview{margin:0}.export-preview header{display:none}.export-preview svg{max-height:270mm;object-fit:contain;break-inside:avoid}}

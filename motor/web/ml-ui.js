@@ -56,5 +56,9 @@
       tbody.append(row);
     }
     table.append(tbody);el('ml-evaluation').append(table);el('ml-controls').disabled=false;predict();
+    ScientificExport.register(table,()=>({title:'Evaluación del modelo ML',source:'/api/ml/report',
+      headers:['Resultado','Métrica de prueba','Seleccionado','Referencia'],
+      rows:Object.entries(report.targets).map(([key,t])=>{const metric=key==='hospitalization'?'brier':'mae_minutes';return [titles[key],metric==='brier'?'Brier (sin unidad)':'Error absoluto medio (min)',t.test_selected[metric],t.test_baseline[metric]];}),
+      notes:[el('ml-status').textContent,'Evaluación en hospitales de prueba; modelo experimental.']}));
   }).catch(error=>{el('ml-status').textContent=error.message;});
 })();

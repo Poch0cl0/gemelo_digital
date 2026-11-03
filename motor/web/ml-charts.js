@@ -1,7 +1,9 @@
 (() => {
   const NS = 'http://www.w3.org/2000/svg';
   const COLORS = ['#1f77b4', '#e8743b', '#19a979', '#945ecf', '#d64550', '#13a4b4', '#8c6d31'];
-  const fmt = (v, d = 2) => v == null || !isFinite(v) ? '—' : Number(v).toLocaleString('es-PE', {maximumFractionDigits: d});
+  // Retain the original number when a formatted value is passed to a table.
+  const value = (raw, text) => Object.assign(new String(text), {raw});
+  const fmt = (v, d = 2) => v == null || !isFinite(v) ? '—' : value(v, Number(v).toLocaleString('es-PE', {maximumFractionDigits: d}));
 
   function node(tag, attrs = {}, text) {
     const n = document.createElementNS(NS, tag);
@@ -71,10 +73,11 @@
     return div;
   }
 
-  function wrap(svg, legendItems) {
+  function wrap(svg, legendItems, sourceData) {
     const d = document.createElement('div');
     d.className = 'ml-figure';
     d.append(svg);
+    ScientificExport.register(svg,()=>({source:'/api/ml/report',sourceData}));
     if (legendItems) d.append(legend(legendItems));
     return d;
   }
@@ -110,7 +113,7 @@
     if (opts.reference != null) {
       f.svg.append(node('line', {x1: f.sx(opts.reference), x2: f.sx(opts.reference), y1: f.m.t, y2: f.h - f.m.b, class: 'ref'}));
     }
-    return wrap(f.svg, opts.legend);
+    return wrap(f.svg, opts.legend, {items, opts});
   }
 
   /** Vertical histogram from {bins, counts}. */
@@ -132,7 +135,7 @@
       f.svg.append(node('line', {x1: f.sx(v), x2: f.sx(v), y1: f.m.t, y2: f.h - f.m.b, class: cls}));
       f.svg.append(node('text', {x: f.sx(v) + 4, y: f.m.t + 10 + k * 13, class: 'val'}, label));
     });
-    return wrap(f.svg, opts.legend);
+    return wrap(f.svg, opts.legend, {data, opts});
   }
 
   /** Median + IQR per category. items: {label, median, q1, q3, n} */
@@ -154,7 +157,7 @@
     });
     if (opts.reference != null)
       f.svg.append(node('line', {x1: f.m.l, x2: f.w - f.m.r, y1: f.sy(opts.reference), y2: f.sy(opts.reference), class: 'ref'}));
-    return wrap(f.svg, opts.legend);
+    return wrap(f.svg, opts.legend, {items, opts});
   }
 
   /** Lines. series: [{label, x:[], y:[], color?, dashed?}] */
@@ -177,7 +180,7 @@
       if (s.markers) s.x.forEach((v, j) => f.svg.append(tooltip(node('circle', {cx: f.sx(v), cy: f.sy(s.y[j]), r: 3.5, fill: color}),
         `${s.label}: (${fmt(v, 3)}, ${fmt(s.y[j], 3)})`)));
     });
-    return wrap(f.svg, series.filter(s => s.label).map((s, i) => ({label: s.label, color: s.color || COLORS[i % COLORS.length], dashed: s.dashed})));
+    return wrap(f.svg, series.filter(s => s.label).map((s, i) => ({label: s.label, color: s.color || COLORS[i % COLORS.length], dashed: s.dashed})), {series, opts});
   }
 
   /** Scatter observed vs predicted with identity line. */
@@ -191,7 +194,7 @@
       if (p.x > cap || p.y > cap) return;
       f.svg.append(node('circle', {cx: f.sx(p.x), cy: f.sy(p.y), r: 2.6, fill: COLORS[0], opacity: 0.45}));
     });
-    return wrap(f.svg, [{label: 'Predicción perfecta (y = x)', color: '#8a97a0', dashed: true}]);
+    return wrap(f.svg, [{label: 'Predicción perfecta (y = x)', color: '#8a97a0', dashed: true}], {points, opts});
   }
 
   /** Forest plot. rows: {label, point, lo, hi} */
@@ -214,7 +217,7 @@
       f.svg.append(node('text', {x: f.m.l - 8, y: cy + 4, 'text-anchor': 'end', class: 'cat'}, r.label));
       f.svg.append(node('text', {x: f.sx(r.point), y: cy - 9, 'text-anchor': 'middle', class: 'val'}, `${fmt(r.point, opts.digits ?? 3)} [${fmt(r.lo, opts.digits ?? 3)}; ${fmt(r.hi, opts.digits ?? 3)}]`));
     });
-    return wrap(f.svg, opts.legend);
+    return wrap(f.svg, opts.legend, {rows, opts});
   }
 
   /** Correlation heatmap with diverging colours. */
@@ -249,7 +252,7 @@
     svg.append(node('text', {x: lx + 20, y: top + 8, class: 'sub'}, '+1'));
     svg.append(node('text', {x: lx + 20, y: top + 104, class: 'sub'}, '0'));
     svg.append(node('text', {x: lx + 20, y: top + 210, class: 'sub'}, '−1'));
-    return wrap(svg);
+    return wrap(svg, null, {matrix, labels, opts});
   }
 
   /** SHAP beeswarm: one row per feature, x = SHAP, colour = feature value (blue low, red high). */
@@ -276,7 +279,7 @@
         f.svg.append(node('circle', {cx: f.sx(p.shap), cy: cy + offset, r: 2.3, fill, opacity: 0.8}));
       });
     });
-    const d = wrap(f.svg);
+    const d = wrap(f.svg, null, {points, features, opts});
     const key = document.createElement('div');
     key.className = 'ml-legend';
     key.textContent = 'Color del punto: azul = valor bajo de la variable · rojo = valor alto · gris = dato ausente';
@@ -305,6 +308,11 @@
       columns.forEach(([key]) => { tr.insertCell().textContent = r[key] ?? '—'; });
     });
     wrapEl.append(t);
+    ScientificExport.register(t, () => ({headers: columns.map(([, label]) => label),
+      rows: rows.map(r => columns.map(([key]) => r[key]?.raw ?? r[key] ?? null)),
+      notes: [...(t.closest('.ml-panel')?.querySelectorAll('.ml-chart-meta, .ml-interpret') || [])].map(n => n.textContent),
+      source: '/api/ml/report · resultados_ml/informe.json',
+      precision: 'Los números formateados conservan su valor original. Los intervalos compuestos mantienen su representación textual; consulta el informe JSON para sus extremos originales.'}));
     return wrapEl;
   }
 
@@ -353,5 +361,5 @@
   }
 
   window.MLCharts = {barChart, histogram, rangeChart, lineChart, scatter, forestPlot, heatmap, beeswarm,
-    contributions, table, panel, fmt, COLORS};
+    contributions, table, panel, fmt, value, COLORS};
 })();
