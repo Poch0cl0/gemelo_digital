@@ -119,14 +119,18 @@ function render() {
   $('comparisons').innerHTML=current.comparisons.map(({policy,metrics:x})=>`<tr class="${policy.name===p.name?'selected':''}"><td>${names[policy.name]}</td><td><b>${fmt(x.objective)}</b></td><td>${fmt(x.wait_p0)} min</td><td>${fmt(x.wait_censored)} min</td><td>${percent(x.coverage_p2)}</td><td>${x.completed}</td></tr>`).join('');
   $('comparison-note').textContent=`Reserva comparada: ${p.reserve} pares hasta el minuto ${p.release}. Envejecimiento cada ${p.aging_interval} min. FIFO y prioridad estricta se comparan sin reserva. — indica que no hubo pacientes de esa prioridad o que el recurso tiene capacidad cero.`;
   renderPatients();
+  registerResults();
 }
 function drawChart() {
   const trace=current.result.trace, max=Math.max(1,...trace.map(r=>Math.max(r.queue,r.active,r.finished)));
   const x=t=>48+t/current.config.horizon*806, y=v=>222-v/max*194;
   const lines=[0,.25,.5,.75,1].map(f=>`<line x1="48" x2="854" y1="${y(max*f)}" y2="${y(max*f)}" stroke="#e8eef1"/><text x="36" y="${y(max*f)+4}" text-anchor="end">${fmt(max*f,0)}</text>`).join('');
   const ticks=[0,.25,.5,.75,1].map(f=>`<text x="${x(current.config.horizon*f)}" y="251" text-anchor="middle">${fmt(current.config.horizon*f,0)}</text>`).join('');
-  const paths=[['queue','#db8b33'],['active','#177d9f'],['finished','#009587']].map(([key,color])=>`<polyline points="${trace.map(r=>`${x(r.t).toFixed(2)},${y(r[key]).toFixed(2)}`).join(' ')}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linejoin="round"/>`).join('');
-  $('chart').innerHTML=`<svg viewBox="0 0 880 275" role="img" aria-label="Evolución temporal de pacientes en espera, en atención y finalizados. Usa el selector de minuto para consultar valores exactos.">${lines}${ticks}${paths}<line id="cursor" x1="854" x2="854" y1="20" y2="222" stroke="#183d48" stroke-dasharray="4 4"/><text x="854" y="273" text-anchor="end">Tiempo (min)</text></svg>`;
+  const paths=[['queue','#a45b00'],['active','#177d9f'],['finished','#006e60']].map(([key,color],i)=>`<polyline stroke-dasharray="${['none','8 4','2 4'][i]}" points="${trace.map(r=>`${x(r.t).toFixed(2)},${y(r[key]).toFixed(2)}`).join(' ')}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linejoin="round"/>`).join('');
+  $('chart').innerHTML=`<svg viewBox="0 0 880 275" role="img" aria-label="Evolución temporal de pacientes en espera, en atención y finalizados. Usa el selector de minuto para consultar valores exactos.">${lines}${ticks}${paths}<text x="18" y="145" transform="rotate(-90 18 145)" text-anchor="middle">Pacientes (personas)</text><line id="cursor" x1="854" x2="854" y1="20" y2="222" stroke="#183d48" stroke-dasharray="4 4"/><text x="854" y="273" text-anchor="end">Tiempo (min)</text></svg>`;
+  const svg=$('chart').querySelector('svg');
+  const tip=document.createElementNS('http://www.w3.org/2000/svg','title');svg.prepend(tip);
+  svg.addEventListener('pointermove',event=>{const pt=new DOMPoint(event.clientX,event.clientY).matrixTransform(svg.getScreenCTM().inverse());const t=Math.max(0,Math.min(current.config.horizon,(pt.x-48)/806*current.config.horizon));const r=current.result.trace.reduce((a,b)=>Math.abs(b.t-t)<Math.abs(a.t-t)?b:a);tip.textContent=`Minuto ${r.t}: ${r.queue} en espera; ${r.active} en atención; ${r.finished} finalizados`;});
 }
 function snapshot() {
   if(!current) return;
@@ -146,6 +150,7 @@ function renderPatients() {
   $('patients').innerHTML=patients.length?patients.map(p=>`<tr><td>#${String(p.id).padStart(3,'0')}</td><td><span class="badge p${p.priority}">P${p.priority}</span></td><td>${fmt(p.arrival)}</td><td>${fmt(p.start)}</td><td>${fmt(p.finish)}</td><td>${fmt((p.start??current.config.horizon)-p.arrival)}</td><td>${p.finish!==null?'Finalizado':p.start!==null?'En atención':'En espera'}</td></tr>`).join(''):'<tr><td colspan="7" class="empty">No hay pacientes para esta selección.</td></tr>';
 }
 $('filter').addEventListener('change',renderPatients);
+$('filter').addEventListener('change',()=> $('patients').closest('table').refreshExportView?.());
 function download(content,type,name) {
   const url=URL.createObjectURL(new Blob([content],{type}));
   const a=document.createElement('a');a.href=url;a.download=name;a.click();
@@ -153,8 +158,42 @@ function download(content,type,name) {
 }
 $('export').addEventListener('click',()=>download(JSON.stringify(current,null,2),'application/json',`simulacion-${current.seed}.json`));
 $('csv').addEventListener('click',()=>{
+  const meta=ScientificExport.data($('patients').closest('table'));
+  const patients=new Map(current.result.patients.map(p=>[p.id,p]));
   const keys=['id','arrival','priority','service','ventilation','remaining','start','finish','doctor','nurse'];
-  const rows=current.result.patients.map(p=>keys.map(k=>p[k]??'').join(','));
-  download('\ufeff'+[keys.join(','),...rows].join('\r\n'),'text/csv;charset=utf-8',`pacientes-${current.seed}.csv`);
+  const headers=['Paciente','Llegada (min)','Prioridad (0–2)','Servicio nominal (min)','Requiere ventilación','Servicio restante (min)','Inicio (min)','Fin (min)','ID médico','ID enfermería','Escenario','Origen'];
+  const rows=meta.rows.map(row=>[...keys.map(k=>patients.get(row[0])[k]??null),meta.scenario,meta.source]);
+  download(ScientificExport.csv(headers,rows),'text/csv;charset=utf-8',`pacientes-${current.seed}.csv`);
 });
+
+
+function runMetadata() {
+  return {scenario:`Política: ${names[current.policy.name]} · Horizonte: ${current.config.horizon} min · Paso: ${current.config.dt} min · Semilla: ${current.seed} · Prioridad: ${$('filter').value}`,
+    source:'/api/simulate', config:current.config, policy:current.policy, seed:current.seed, population:current.population,
+    notes:[$('population-info').textContent, 'Espera censurada: inicio menos llegada; si no inicia, horizonte menos llegada. Cobertura: fracción que inició atención. Utilización: ocupación integrada / capacidad / horizonte. — indica ausencia de observaciones o capacidad cero.']};
+}
+function registerResults() {
+  ScientificExport.register($('chart').querySelector('svg'),()=>({...runMetadata(),title:'Evolución de pacientes',
+    rows:current.result.trace,notes:[...runMetadata().notes,'Tiempo (min); pacientes (personas). En espera: naranja continua; en atención: azul discontinua; finalizados: verde punteada. El cursor marca el minuto explorado; la curva muestra todo el horizonte.']}));
+  ScientificExport.register($('patients').closest('table'),()=>({...runMetadata(),title:'Trayectorias individuales',
+    headers:['Paciente','Prioridad','Llegada (min)','Inicio (min)','Fin (min)','Espera censurada (min)','Estado al cierre'],
+    rows:current.result.patients.filter(p=>$('filter').value==='all'||p.priority===Number($('filter').value)).map(p=>[p.id,`P${p.priority}`,p.arrival,p.start,p.finish,(p.start??current.config.horizon)-p.arrival,p.finish!==null?'Finalizado':p.start!==null?'En atención':'En espera'])}));
+  ScientificExport.register($('comparisons').closest('table'),()=>({...runMetadata(),title:'Comparación de políticas',
+    notes:[...runMetadata().notes,$('comparison-note').textContent,'Una réplica por política; no representa incertidumbre entre ejecuciones.'],
+    headers:['Política','Pérdida ponderada (min equivalentes)','Espera P0 (min)','Espera global (min)','Cobertura P2 (fracción)','Finalizados (personas)'],
+    rows:current.comparisons.map(({policy,metrics:m})=>[names[policy.name],m.objective,m.wait_p0,m.wait_censored,m.coverage_p2,m.completed])}));
+  $('patients').closest('table').refreshExportView?.();
+  $('comparisons').closest('table').refreshExportView?.();
+  for (const [id,title,headers,rows] of [
+    ['resources','Utilización de recursos',['Recurso','Capacidad (unidades)','Utilización media (fracción)'],['doctors','nurses','beds','icu','ventilators'].map((k,i)=>[['Médicos','Enfermería','Camas generales','UCI','Ventiladores'][i],current.config[k],current.result.metrics['util_'+k]])],
+    ['priorities','Resultados por prioridad',['Prioridad','Cobertura (fracción)','Espera censurada (min)'],[0,1,2].map(k=>['P'+k,current.result.metrics['coverage_p'+k],current.result.metrics['wait_p'+k]])]
+  ]) {
+    const table=document.createElement('table');
+    const head=table.createTHead().insertRow();headers.forEach(h=>{const th=document.createElement('th');th.textContent=h;head.append(th);});
+    const body=table.createTBody();rows.forEach(r=>{const tr=body.insertRow();r.forEach(v=>tr.insertCell().textContent=typeof v==='number'?fmt(v,4):v??'—');});
+    $(id).append(table);
+    ScientificExport.register(table,()=>({...runMetadata(),title,headers,rows}));
+  }
+}
+
 run();

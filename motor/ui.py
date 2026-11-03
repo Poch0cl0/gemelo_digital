@@ -16,7 +16,11 @@ from .model import Config, Policy, generate, simulate
 
 STATIC = Path(__file__).with_name('web')
 PAGE_ROUTES = ['/', '/operations', '/simulation', '/simulator', '/ml', '/asistente']
-ASSETS = {'/': ('operations.html', 'text/html'), '/operations': ('operations.html', 'text/html'),
+ASSETS = {'/scientific-export.js': ('scientific-export.js', 'text/javascript'),
+          '/scientific-export.css': ('scientific-export.css', 'text/css'),
+          '/export-preview': ('export-preview.html', 'text/html'),
+          '/export-preview.js': ('export-preview.js', 'text/javascript'),
+          '/': ('operations.html', 'text/html'), '/operations': ('operations.html', 'text/html'),
           '/simulation': ('simulation.html', 'text/html'), '/simulator': ('index.html', 'text/html'),
           '/ml': ('ml.html', 'text/html'), '/asistente': ('asistente.html', 'text/html'),
           '/simulation-shell.js': ('simulation-shell.js', 'text/javascript'),
@@ -112,7 +116,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header('Content-Length', str(len(data)))
         self.send_header('Cache-Control', 'no-store')
         self.send_header('X-Content-Type-Options', 'nosniff')
-        self.send_header('Content-Security-Policy', "default-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; frame-ancestors 'self'")
+        self.send_header('Content-Security-Policy', "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' blob:; object-src 'none'; frame-ancestors 'self'")
         self.end_headers()
         self.wfile.write(data)
 

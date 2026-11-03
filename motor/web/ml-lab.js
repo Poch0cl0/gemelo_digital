@@ -1,8 +1,8 @@
 (() => {
   const C = window.MLCharts;
   const {fmt} = C;
-  const pct = v => v == null ? '—' : fmt(v * 100, 1) + ' %';
-  const pv = p => p == null ? '—' : p < 0.001 ? '< 0,001' : fmt(p, 3);
+  const pct = v => v == null ? '—' : C.value(v * 100, fmt(v * 100, 1) + ' %');
+  const pv = p => p == null ? '—' : C.value(p, p < 0.001 ? '< 0,001' : String(fmt(p, 3)));
   const $ = id => document.getElementById(id);
   const make = (tag, props = {}, children = []) => {
     const n = Object.assign(document.createElement(tag), props);
@@ -567,6 +567,8 @@
   fetch('/api/ml/report').then(r => r.json().then(d => { if (!r.ok) throw new Error(d.error || 'Informe no disponible'); return d; }))
     .then(data => {
       report = data;
+      const original = make('a', {href:'/api/ml/report',download:'informe-ml-original.json',textContent:'Descargar datos originales ML (JSON)'});
+      $('ml-tabs').before(original);
       $('ml-trained').textContent = `● Entrenado ${new Date(data.trained_utc).toLocaleString('es-PE')}${data.quick_mode ? ' · modo rápido' : ''}`;
       const start = location.hash.slice(1);
       show(RENDER[start] ? start : 'business');

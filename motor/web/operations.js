@@ -21,6 +21,10 @@
   const cache={};let entity=Object.hasOwn(labels,location.hash.slice(1))?location.hash.slice(1):'areas',editing=null,editingRecord=null,page=1,busy=false,toastTimer;
   const meta={areas:['Áreas del hospital','Organiza los espacios donde ocurre la atención.','Directorio de áreas','⊞'],resources:['Recursos y equipos','Conoce la disponibilidad de camas y equipos por área.','Inventario de recursos','▤'],staff:['Equipo asistencial','Organiza el personal y su vinculación con las áreas.','Directorio de personal','♧'],shifts:['Planificación de turnos','Coordina la cobertura y disponibilidad del equipo.','Turnos del personal','▦'],episodes:['Episodios de atención','Sigue el recorrido de cada episodio y sus etapas.','Registro de episodios','♡'],assignments:['Asignaciones de atención','Vincula los recursos y el personal con la atención en curso.','Asignaciones de recursos','⇄']};
   const headings={id:'ID',code:'Código',name:'Nombre',kind:'Tipo de área',active:'Estado',category:'Categoría',area_id:'Área',status:'Estado',role:'Rol',staff_id:'Personal',starts_at:'Inicio',ends_at:'Fin',patient_ref:'Episodio',priority:'Prioridad',state:'Estado',arrived_at:'Llegada',source:'Origen',resource_code:'Recurso',staff_code:'Personal',assigned_at:'Asignación',released_at:'Liberación'};
+  const order=document.createElement('select');order.setAttribute('aria-label','Ordenar registros');
+  for(const [value,label] of [['id','ID ascendente'],['-id','ID descendente']])order.add(new Option(label,value));
+  document.querySelector('.table-toolbar').append(order);
+  order.addEventListener('change',()=>{page=1;renderRows();});
   function showError(message){const target=$('record-dialog').open?$('form-error'):$('hospital-dialog').open?$('hospital-error'):$('ops-error');target.textContent=message;target.hidden=false;}
   function toast(message){$('toast').textContent=message;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,4000);}
   async function request(url,options={}){const response=await fetch(url,options);let data={};try{data=await response.json();}catch{}if(!response.ok)throw new Error(data.error||`No se pudo completar la solicitud (${response.status}).`);return data;}
@@ -76,6 +80,8 @@
   function renderRows(){
     const cols=columns[entity];const head=document.createElement('tr');for(const key of [...cols,'Acciones']){const th=document.createElement('th');th.scope='col';th.textContent=headings[key]||key;head.append(th);}$('record-head').replaceChildren(head);
     const query=$('search').value.trim().toLocaleLowerCase('es');const filtered=(cache[entity]||[]).filter(r=>($('show-archived').checked||!r.archived)&&(!query||cols.some(k=>String(cellValue(r,k)).toLocaleLowerCase('es').includes(query))));
+    filtered.sort((a,b)=>(a.id-b.id)*(order.value==='-id'?-1:1));
+    ScientificExport.register($('record-body').closest('table'),()=>({title:$('list-title').textContent, headers:cols.map(k=>headings[k]||k), rows:filtered.map(r=>cols.map(k=>k.endsWith('_at')?r[k]??null:cellValue(r,k))), notes:['Registros filtrados completos, sin paginación. Fechas originales ISO; estados y referencias con etiquetas de la interfaz. Búsqueda: '+query+' · Incluir archivados: '+$('show-archived').checked+'; orden: '+order.value], source:'/api/ops/'+entity}));
     const total=filtered.length,pages=Math.max(1,Math.ceil(total/10));page=Math.min(page,pages);$('record-count').textContent=`${total} ${total===1?'registro':'registros'}${query?' encontrados':''}`;$('page-info').textContent=total?`${(page-1)*10+1}–${Math.min(page*10,total)} de ${total} registros`:'Sin registros para mostrar';$('prev-page').disabled=page===1;$('next-page').disabled=page===pages;
     const body=$('record-body');body.replaceChildren();
     for(const record of filtered.slice((page-1)*10,page*10)){const row=document.createElement('tr');
