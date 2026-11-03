@@ -1,486 +1,486 @@
 {
   "date": "2026-11-03",
-  "status": "PREPARACION_LOCAL_NO_PUBLICADA",
+  "status": "AUTORIZADA_PARA_PUBLICACION_NO_ACREDITA_DEPOSITO",
   "files": [
     {
       "path": "suplementos/correcciones_articulo/evidencia_adicional/compromiso_distributivo.png",
       "sha256": "a17fd995cbe72481973f8e081f7ea8be9ec2710ce215833b3184b31d6f1075b8",
       "source": "correcciones_articulo/evidencia_adicional/compromiso_distributivo.png",
       "bytes": 60891,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/correcciones_articulo/evidencia_adicional/discrepancias_reproduccion.json",
       "sha256": "68c50b47b8173a5aadf47e93388f805a084597f2e9c0be2f9c05e35023de2cfe",
       "source": "correcciones_articulo/evidencia_adicional/discrepancias_reproduccion.json",
       "bytes": 745,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/correcciones_articulo/evidencia_adicional/entorno_ejecutado_freeze.txt",
       "sha256": "e7d3a9482da8f6e1d036f6e561732e23678e1a1a6e9c28a5c3c6ac59575d02f1",
       "source": "correcciones_articulo/evidencia_adicional/entorno_ejecutado_freeze.txt",
       "bytes": 5733,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/correcciones_articulo/evidencia_adicional/INFORME_EVIDENCIA.md",
       "sha256": "ca58f238db5388bcc21d154b184b2fac50b928a571f096d894f1a32321672b2e",
       "source": "correcciones_articulo/evidencia_adicional/INFORME_EVIDENCIA.md",
       "bytes": 5737,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/correcciones_articulo/evidencia_adicional/manifiesto_sha256.json",
       "sha256": "b21231cd5e61c70ceaadbcd50e0289850239e293534a6258ce9bcfe4e909c99f",
       "source": "correcciones_articulo/evidencia_adicional/manifiesto_sha256.json",
       "bytes": 2046,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/correcciones_articulo/evidencia_adicional/policy_ejecuciones.csv",
       "sha256": "8c9e23303c288894152c55bb3a893ad0727e6e193dce727ae7bd44146aa95a18",
       "source": "correcciones_articulo/evidencia_adicional/policy_ejecuciones.csv",
       "bytes": 255243,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/correcciones_articulo/evidencia_adicional/protocolo_previo.json",
       "sha256": "371fb34d1f1e7ec62038dee9580e1672ee24a984199971bd9fd77cbebfd547ca",
       "source": "correcciones_articulo/evidencia_adicional/protocolo_previo.json",
       "bytes": 1777,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/correcciones_articulo/evidencia_adicional/reproduce_ejecuciones.csv",
       "sha256": "44180b570ca5221d1199bc51869d15ab71c197cb82cddf52ec5627ecf6f4e695",
       "source": "correcciones_articulo/evidencia_adicional/reproduce_ejecuciones.csv",
       "bytes": 38862,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/correcciones_articulo/evidencia_adicional/resultados.json",
       "sha256": "d764dfa626f0ce11cec0c7ce4ac0f299a6c6bc96a7dbed9a4b71c3bbf949d9b9",
       "source": "correcciones_articulo/evidencia_adicional/resultados.json",
       "bytes": 64464,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/correcciones_articulo/evidencia_adicional/sobol_ejecuciones.csv",
       "sha256": "40822d1decfeee4c5b7ca1b29ec22320c8557b675b95125d81eeb763a09be524",
       "source": "correcciones_articulo/evidencia_adicional/sobol_ejecuciones.csv",
       "bytes": 1652158,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/correcciones_articulo/evidencia_adicional/sobol_estabilidad.png",
       "sha256": "47421712b9071b7fd32e2994c57edfea640be9da35155afd06b98cdc9836aab4",
       "source": "correcciones_articulo/evidencia_adicional/sobol_estabilidad.png",
       "bytes": 94863,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/correcciones_articulo/evidencia_adicional/sobol_indices_por_scramble.csv",
       "sha256": "91c969f55b7bb780dfe4098e1a8e3840b8220e6ceb09c3f6fd2893dfa138a93d",
       "source": "correcciones_articulo/evidencia_adicional/sobol_indices_por_scramble.csv",
       "bytes": 1553,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/MANIFIESTO_GLOBAL.json",
       "sha256": "10d22ffd4348e9e9580c807b6c09e4b031e311602c1368b7d083ceff5afa751a",
       "source": "evidencia_v4/MANIFIESTO_GLOBAL.json",
       "bytes": 14005,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_0/baseline_manifest.json",
       "sha256": "9de8b714c66627a28f624c701e97781ef4135e37a5c730ce24d9ffd24fddbc75",
       "source": "evidencia_v4/fase_0/baseline_manifest.json",
       "bytes": 12949,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_0/case_0_current.json.gz",
       "sha256": "b6df6fe42dd9c76ea290feccd2209f7ef439f1f9da13e602f50f91691f114636",
       "source": "evidencia_v4/fase_0/case_0_current.json.gz",
       "bytes": 14220,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_0/case_1_current.json.gz",
       "sha256": "77a640ef6f4d16ae2faf784399fa13cfc05c3dca24878ffc64b8beeb1cb5f42c",
       "source": "evidencia_v4/fase_0/case_1_current.json.gz",
       "bytes": 13676,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_0/case_2_current.json.gz",
       "sha256": "2ab04d08318b1a0e9cfac3621906c7be19fd878465802f5a5d6df9e1217ccbae",
       "source": "evidencia_v4/fase_0/case_2_current.json.gz",
       "bytes": 18242,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_0/diagnostics.json",
       "sha256": "0d09b2b3d2a1ad663dd8d25a284d6ed7b3565df29f9bcf6aab945b6dd800c69e",
       "source": "evidencia_v4/fase_0/diagnostics.json",
       "bytes": 8063,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_0/environment_freeze.txt",
       "sha256": "e7d3a9482da8f6e1d036f6e561732e23678e1a1a6e9c28a5c3c6ac59575d02f1",
       "source": "evidencia_v4/fase_0/environment_freeze.txt",
       "bytes": 5733,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_0/git_branch.txt",
       "sha256": "7b15e2c30b7095b162713153b27e88128501dc2098392d229e0bd6589808dba0",
       "source": "evidencia_v4/fase_0/git_branch.txt",
       "bytes": 52,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_0/INFORME_FASE_0.md",
       "sha256": "3e7f4cf078b98fc3a33a4fdcbd1ef638de366ce2a4861fc0a925f7abd0fb102c",
       "source": "evidencia_v4/fase_0/INFORME_FASE_0.md",
       "bytes": 8895,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_0/manifest.json",
       "sha256": "8975bcf197eac67a96a33ce70bd8e75da21854df4b43489299cb3f0a92fbbd13",
       "source": "evidencia_v4/fase_0/manifest.json",
       "bytes": 1727,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_0/observacion_transporte_tests.md",
       "sha256": "492e3f035b24b527135eb5bce5584b0d1432d6a38a8d2d2f526b6b1a7088e9c3",
       "source": "evidencia_v4/fase_0/observacion_transporte_tests.md",
       "bytes": 1256,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_0/tests_current.json",
       "sha256": "71b0300783ebb5e79b78e0fb4a699c496af5b1c2b2c4a6a454adbdf1f859c34d",
       "source": "evidencia_v4/fase_0/tests_current.json",
       "bytes": 473,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_0/tests_final.json",
       "sha256": "6df31a719fb369881bdd06eca92b1c6eb511da467f25bbe175ed33e1c92dea7b",
       "source": "evidencia_v4/fase_0/tests_final.json",
       "bytes": 473,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_1/calibrated_cohort.csv",
       "sha256": "3b42c4c561493c799e2aa5ef6ffedf449be95ce886fb54eda96870ee1ba40777",
       "source": "evidencia_v4/fase_1/calibrated_cohort.csv",
       "bytes": 6174,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_1/calibrated_execution.json",
       "sha256": "c02df75fdaf5287e5d09f33da268ebf95a7704a5d55fbf7fe3a16fde29df0671",
       "source": "evidencia_v4/fase_1/calibrated_execution.json",
       "bytes": 1161,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_1/calibration_inputs.json",
       "sha256": "ba6cd8b2fb305562299a20d8a6fcdef392fed6e9526a220702edc5b2c1393a4d",
       "source": "evidencia_v4/fase_1/calibration_inputs.json",
       "bytes": 939953,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_1/calibration_results.json",
       "sha256": "61be6dd9d38ae7afe08b63102b59d809808e4c8b626cf26bef939bacfeced9ac",
       "source": "evidencia_v4/fase_1/calibration_results.json",
       "bytes": 85443,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_1/INFORME_FASE_1.md",
       "sha256": "79846798c392bf6f95714d2496f1a8eaa05a41f33f2f9f1c8eea11d5b2054148",
       "source": "evidencia_v4/fase_1/INFORME_FASE_1.md",
       "bytes": 7704,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_1/manifest.json",
       "sha256": "d3a921db2af24d8fa838408396008b033926b3724d25c7e198f38882f5e0698d",
       "source": "evidencia_v4/fase_1/manifest.json",
       "bytes": 588,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_2/INFORME_FASE_2.md",
       "sha256": "c23114dfcd91e9388e1c53ec63f4ad25832c3543d55e34327cef5304a8038a5b",
       "source": "evidencia_v4/fase_2/INFORME_FASE_2.md",
       "bytes": 8984,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_2/manifest.json",
       "sha256": "540394e4ece70c22f21b9af2caf70ba2b4cc9e88360597c8dbee08b106aeed20",
       "source": "evidencia_v4/fase_2/manifest.json",
       "bytes": 115,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/distribution_protocol.json",
       "sha256": "953859f28c1d37c62f0035f9e55d7ebc462f9acc226f99ed84438d9b10145aca",
       "source": "evidencia_v4/fase_3/distribution_protocol.json",
       "bytes": 1227,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/distribution_results.json",
       "sha256": "84653dea867c700ee65eee771e06ccdd6b2fe5032d2bc4051929d42e392febb1",
       "source": "evidencia_v4/fase_3/distribution_results.json",
       "bytes": 283,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/distribution_runs.csv",
       "sha256": "ca08871282e209d3438be11fdb89fb841edd7dfa04c0efdbcba743526e4a293e",
       "source": "evidencia_v4/fase_3/distribution_runs.csv",
       "bytes": 1811,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/engine_comparison.png",
       "sha256": "fd916b31f76958185e95554454bb460c383a17342668b8abd273f6b46eb55e87",
       "source": "evidencia_v4/fase_3/engine_comparison.png",
       "bytes": 49612,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/execution_budget_amendment.json",
       "sha256": "ded8a7554e0f2d379fa424b84341af4d28e7e84bada32f17a21e9109e92dfbc9",
       "source": "evidencia_v4/fase_3/execution_budget_amendment.json",
       "bytes": 482,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/independent_verification.json",
       "sha256": "8be8fed1343671ba20bc509010870775a20997f92dd9026b2e083c5777cc0090",
       "source": "evidencia_v4/fase_3/independent_verification.json",
       "bytes": 431,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/INFORME_FASE_3.md",
       "sha256": "a1ba45f377b6f713d708ce9b799900a9c6fa972cd26ab6a6fbdb956e29094e42",
       "source": "evidencia_v4/fase_3/INFORME_FASE_3.md",
       "bytes": 8995,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/manifest.json",
       "sha256": "b1f4ecea49342225a0dc8d6ef46b6b2f118d7fe5dd1971497b66cf8b54cabcf1",
       "source": "evidencia_v4/fase_3/manifest.json",
       "bytes": 1814,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/pilot.json",
       "sha256": "0c97d4526c89e266d5acee1898fcad0d651df32ef07ab87b62ef5fa9a2f16187",
       "source": "evidencia_v4/fase_3/pilot.json",
       "bytes": 1088,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/protocol.json",
       "sha256": "c1002f5783c534288fd4cfea0c97b639903cad5055077a09c91898fa707d655b",
       "source": "evidencia_v4/fase_3/protocol.json",
       "bytes": 3648,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/results.json",
       "sha256": "b905135a51b5f9446d1a3284edfda67c6cde38f5f025e70cc2013ea3c9e19bd4",
       "source": "evidencia_v4/fase_3/results.json",
       "bytes": 187926,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/runs.csv",
       "sha256": "3a6720d6f671f66db3e435fdea3095688aec2afa1ed955c122e2710af1c54f3f",
       "source": "evidencia_v4/fase_3/runs.csv",
       "bytes": 188205,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/sobol_indices.csv",
       "sha256": "4ec13c081699cc44aaf969d8715e40c2d9f23ecc2c6f3476f8629fee652bd04f",
       "source": "evidencia_v4/fase_3/sobol_indices.csv",
       "bytes": 956,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/sobol_runs.csv",
       "sha256": "b300637a11314f421e89275603d729d277ba215d20267c98fddd86d76f8a8bb8",
       "source": "evidencia_v4/fase_3/sobol_runs.csv",
       "bytes": 231099,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/sobol_stability.png",
       "sha256": "decde4f29c0dfe2225287c580d80c4105f35fe07371821773167a8de5b44d7a3",
       "source": "evidencia_v4/fase_3/sobol_stability.png",
       "bytes": 60219,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_3/uncertainty.csv",
       "sha256": "d2ab3c528ad97f297997677e0dba18801d8ed030ce4fe372e2cfc09288700ad1",
       "source": "evidencia_v4/fase_3/uncertainty.csv",
       "bytes": 5174,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_4/benchmark_protocol.json",
       "sha256": "1c5f8e0816d062814396ac87e9b826e11acffe7f5f14643fadd7614675cdaa54",
       "source": "evidencia_v4/fase_4/benchmark_protocol.json",
       "bytes": 3934,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_4/benchmark_results.json",
       "sha256": "aa96131f7ebf009e0c5ce79cbd9068f5f98876a6778500815bf80b9afd8bbbae",
       "source": "evidencia_v4/fase_4/benchmark_results.json",
       "bytes": 26159,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_4/INFORME_FASE_4.md",
       "sha256": "ca8d51ad41c38cf30f9d23d2fb2193843feb347c9c73424767611edf32b9ea30",
       "source": "evidencia_v4/fase_4/INFORME_FASE_4.md",
       "bytes": 8979,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_4/manifest.json",
       "sha256": "df4761026a9a8df9468e935bfe3d07f3ecd0bf8fa93d2cd05a49027bb2835bc4",
       "source": "evidencia_v4/fase_4/manifest.json",
       "bytes": 471,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_4/provider_availability.json",
       "sha256": "3fbe06fae2c5f2e4a157897628ac883e2e9019a831c01f9fa274b41ea586dd69",
       "source": "evidencia_v4/fase_4/provider_availability.json",
       "bytes": 277,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_5/clean_install.json",
       "sha256": "379df050e8df6f4c61abf4178e3decc52e0517fd397267c1215d24ba47de031b",
       "source": "evidencia_v4/fase_5/clean_install.json",
       "bytes": 232,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_5/clean_tests.json",
       "sha256": "fc0bae966163f5f93058365d7253863d0cf578c1aea7b43b5a5e9f506a3818e8",
       "source": "evidencia_v4/fase_5/clean_tests.json",
       "bytes": 227,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_5/INFORME_FASE_5.md",
       "sha256": "caf9dd7271d0870e94aefff7f5d7a3878d7ffc3651d90464e2cbca81bc5be593",
       "source": "evidencia_v4/fase_5/INFORME_FASE_5.md",
       "bytes": 8991,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/evidencia_v4/fase_5/manifest.json",
       "sha256": "f428e3f2bb7df222a636c4aafc45c888548f88bf207c39e83bfeb80257b26a62",
       "source": "evidencia_v4/fase_5/manifest.json",
       "bytes": 807,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "CC-BY-4.0"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "CC-BY-4.0"
     },
     {
       "path": "suplementos/correcciones_articulo/generar_evidencia.py",
       "sha256": "d2564b7cc129974b9e5b0618bee3d07bca6a2f86254382a74f4cae847e9ec3bb",
       "source": "correcciones_articulo/generar_evidencia.py",
       "bytes": 7562,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "MIT"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "MIT"
     },
     {
       "path": "suplementos/correcciones_articulo/finalizar_evidencia.py",
       "sha256": "c728550bfa58849844d8ae03c6959eb8fc676cb0ffd311e1943f3eb9bc63c0d8",
       "source": "correcciones_articulo/finalizar_evidencia.py",
       "bytes": 15069,
-      "rights": "NO_CONFIRMADOS_TODOS_LOS_TITULARES",
-      "planned_license": "MIT"
+      "rights": "CONFIRMADOS_POR_EL_SOLICITANTE",
+      "license": "MIT"
     }
   ],
   "excluded": [
@@ -494,5 +494,7 @@
     "evidencia_v4/fase_5/references_external.json",
     "evidencia_v4/fase_5/referencias_fuentes_primarias.md",
     "evidencia_v4/fase_5/clean_env/**"
-  ]
+  ],
+  "rights_confirmation": "El solicitante confirma los tres nombres del artículo como titulares de ambos conjuntos y el consentimiento de todos para MIT y CC BY 4.0.",
+  "copyright_holders": "Jefferson Miguel Peña Serrano, Martin Aryan Robles Perez y Juan Pedro Santos Fernandez"
 }

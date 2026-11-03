@@ -1,3 +1,5 @@
+> ARCHIVO HISTÓRICO DE PREPARACIÓN: los borradores de esta carpeta no son los avisos vigentes. Tras la confirmación del solicitante, rigen LICENSE, LICENSE-DATA y LICENSE-SCOPE.md en la raíz. Las dudas de conformidad descritas abajo corresponden al estado anterior.
+
 # Licencias preparadas, sin entrada en vigor
 
 Estado al 3 de noviembre de 2026: el autor que solicita la tarea autoriza MIT para código propio y CC BY 4.0 para datos sintéticos, resultados y figuras propios. No se ha confirmado la identidad de todos los titulares ni la conformidad de posibles cotitulares. Los archivos de esta carpeta son borradores; no se instala una licencia definitiva en la raíz del proyecto.

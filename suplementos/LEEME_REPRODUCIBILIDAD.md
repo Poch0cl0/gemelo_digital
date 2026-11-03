@@ -1,6 +1,6 @@
 # Entrega suplementaria preparada para revisión
 
-No publicada por esta tarea. Las licencias propuestas siguen inactivas hasta confirmar titulares y cotitulares. No atribuir al commit de preparación una reproducción integral ni el cierre de la validación clínica.
+Entrega autorizada para publicación por el solicitante, que confirmó a los tres titulares y su conformidad. MIT cubre el código propio y CC BY 4.0 los materiales científicos propios según LICENSE-SCOPE.md. El estado de depósito se comprueba en GitHub por rama y commit; este documento por sí solo no acredita un push. No atribuir a esta entrega una reproducción integral ni el cierre de la validación clínica.
 
 ## Campañas separadas
 
