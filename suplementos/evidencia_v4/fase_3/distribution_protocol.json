@@ -1,0 +1,55 @@
+{
+  "label": "additional-exploratory-input-shape",
+  "date": "2026-10-31",
+  "note": "Protocol fixed before these additional runs; main V4 campaign already started. No confirmatory selection.",
+  "distributions": [
+    "triangular",
+    "gamma_matched_moments"
+  ],
+  "seeds": [
+    45000,
+    45001,
+    45002,
+    45003,
+    45004,
+    45005,
+    45006,
+    45007,
+    45008,
+    45009,
+    45010,
+    45011,
+    45012,
+    45013,
+    45014,
+    45015,
+    45016,
+    45017,
+    45018,
+    45019
+  ],
+  "runs": 40,
+  "horizon": 120,
+  "variant": "full",
+  "policy": "priority",
+  "shared_arrivals": true,
+  "gamma_moments": {
+    "means": [
+      60,
+      30,
+      15
+    ],
+    "variances": [
+      150,
+      37.5,
+      16.666666666666668
+    ]
+  },
+  "clinical_validation": false,
+  "source_hashes": {
+    "model.py": "fb1607699ba89f23891db89168de9db07b01bb5371a55689405f80795610d453",
+    "model_v4.py": "81cc0f223e2e1eb4ba2012d3434aaf1fe267c1bb0ed8ea7032eda55c72e13976",
+    "initial_state.py": "b341e60fcee4adf175ec9fdbf0038e5e6ef68e7784864732fe3718ff25276c50",
+    "scenario_graph_v4.py": "26a9f624a37c2ff45589cd2d4b48fa9f776522513f3139467b6adf81287ac1b3"
+  }
+}

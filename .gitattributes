@@ -1,0 +1,3 @@
+# Preserve the exact bytes identified by the supplemental SHA-256 inventory.
+suplementos/** -text
+preparacion_licencias/** -text

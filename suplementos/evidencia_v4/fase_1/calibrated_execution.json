@@ -1,0 +1,39 @@
+{
+  "seed": 51003,
+  "kind": "synthetic-calibration-demonstration-not-analytical-campaign",
+  "provenance": {
+    "fit_kind": "synthetic",
+    "fit_source": "generated-recovery-51001",
+    "remaining_synthetic_assumptions": [
+      "priority_proportions",
+      "ventilation_probability"
+    ],
+    "clinical_validation": false
+  },
+  "metrics": {
+    "arrivals": 86,
+    "started": 27,
+    "completed": 19,
+    "waiting": 59,
+    "in_service": 8,
+    "max_queue": 59,
+    "fatigue_mean": 0.5104932173219944,
+    "wait_censored": 36.61210035412026,
+    "objective": 71.7291307768475,
+    "abandoned": 0,
+    "dead": 0,
+    "transferred": 0,
+    "coverage_p0": 0.5555555555555556,
+    "wait_p0": 22.275058594708824,
+    "coverage_p1": 0.44,
+    "wait_p1": 25.547753031787984,
+    "coverage_p2": 0.13953488372093023,
+    "wait_p2": 49.04641278964845,
+    "util_doctors": 0.934375,
+    "util_nurses": 0.6229166666666667,
+    "util_beds": 0.3423611111111111,
+    "util_icu": 0.8416666666666667,
+    "util_ventilators": 0.8361111111111111
+  },
+  "fit_sha256": "61be6dd9d38ae7afe08b63102b59d809808e4c8b626cf26bef939bacfeced9ac"
+}

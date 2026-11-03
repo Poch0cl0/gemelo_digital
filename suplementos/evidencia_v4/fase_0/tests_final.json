@@ -1,0 +1,21 @@
+{
+  "modules": [
+    "motor.test_model",
+    "motor.test_cohort",
+    "motor.test_database",
+    "motor.test_ui",
+    "motor.test_agent",
+    "motor.test_exports",
+    "motor.test_v4",
+    "motor.test_scenario_v4"
+  ],
+  "methods": 88,
+  "successful_methods": 87,
+  "failed_method_ids": [
+    "motor.test_model.EngineTests.test_original_engine_regression"
+  ],
+  "failure_records": 3,
+  "error_records": 0,
+  "skipped": 0,
+  "coverage_measured": false
+}

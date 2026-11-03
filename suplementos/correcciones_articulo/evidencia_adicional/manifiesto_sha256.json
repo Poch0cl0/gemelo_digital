@@ -1,0 +1,17 @@
+{
+  "correcciones_articulo/evidencia_adicional/compromiso_distributivo.png": "a17fd995cbe72481973f8e081f7ea8be9ec2710ce215833b3184b31d6f1075b8",
+  "correcciones_articulo/evidencia_adicional/discrepancias_reproduccion.json": "68c50b47b8173a5aadf47e93388f805a084597f2e9c0be2f9c05e35023de2cfe",
+  "correcciones_articulo/evidencia_adicional/entorno_ejecutado_freeze.txt": "e7d3a9482da8f6e1d036f6e561732e23678e1a1a6e9c28a5c3c6ac59575d02f1",
+  "correcciones_articulo/evidencia_adicional/INFORME_EVIDENCIA.md": "ca58f238db5388bcc21d154b184b2fac50b928a571f096d894f1a32321672b2e",
+  "correcciones_articulo/evidencia_adicional/policy_ejecuciones.csv": "8c9e23303c288894152c55bb3a893ad0727e6e193dce727ae7bd44146aa95a18",
+  "correcciones_articulo/evidencia_adicional/protocolo_previo.json": "371fb34d1f1e7ec62038dee9580e1672ee24a984199971bd9fd77cbebfd547ca",
+  "correcciones_articulo/evidencia_adicional/reproduce_ejecuciones.csv": "44180b570ca5221d1199bc51869d15ab71c197cb82cddf52ec5627ecf6f4e695",
+  "correcciones_articulo/evidencia_adicional/resultados.json": "d764dfa626f0ce11cec0c7ce4ac0f299a6c6bc96a7dbed9a4b71c3bbf949d9b9",
+  "correcciones_articulo/evidencia_adicional/sobol_ejecuciones.csv": "40822d1decfeee4c5b7ca1b29ec22320c8557b675b95125d81eeb763a09be524",
+  "correcciones_articulo/evidencia_adicional/sobol_estabilidad.png": "47421712b9071b7fd32e2994c57edfea640be9da35155afd06b98cdc9836aab4",
+  "correcciones_articulo/evidencia_adicional/sobol_indices_por_scramble.csv": "91c969f55b7bb780dfe4098e1a8e3840b8220e6ceb09c3f6fd2893dfa138a93d",
+  "correcciones_articulo/generar_evidencia.py": "d2564b7cc129974b9e5b0618bee3d07bca6a2f86254382a74f4cae847e9ec3bb",
+  "correcciones_articulo/finalizar_evidencia.py": "c728550bfa58849844d8ae03c6959eb8fc676cb0ffd311e1943f3eb9bc63c0d8",
+  "correcciones_articulo/PROMPT_CLAUDE_ACTUALIZADO.md": "1af43731863ba045db7a55d9b2978c0cf57d2ce0f98d97d00b5a9956a2e9ced2",
+  "correcciones_articulo/Articulo_revision2_con_evidencia.docx": "01ae761f9ec102cb68b9d035d25ce7361a4e3ef77a4520e57d6eba2c4dc29631"
+}

@@ -1,0 +1,810 @@
+{
+  "n": 20,
+  "correct_status": 20,
+  "exact_equal": 20,
+  "direct_p50_ms": 0.02920000406447798,
+  "graph_p50_ms": 0.6722999969497323,
+  "graph_p95_ms": 34.215400014363695,
+  "records": [
+    {
+      "id": 0,
+      "expected": "completed",
+      "direct_status": "completed",
+      "graph_status": "completed",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 19.124999991618097,
+      "graph_ms": 24.303599988343194,
+      "response": {
+        "status": "completed",
+        "evidence_id": "6d447b7566da0fab4a4172a109d608c3b7621848c84118cb8833f1694fe0114d",
+        "provenance": {
+          "request": {
+            "scenario": "reference",
+            "policy": "fifo",
+            "horizon": 30,
+            "seeds": [
+              44000
+            ],
+            "engine": "extended",
+            "variant": "full",
+            "parameters": null,
+            "metrics": [
+              "objective",
+              "coverage_p0",
+              "coverage_p1",
+              "coverage_p2"
+            ],
+            "work_unit": "basal_minutes",
+            "origin": "synthetic"
+          },
+          "sources": {
+            "model.py": "fb1607699ba89f23891db89168de9db07b01bb5371a55689405f80795610d453",
+            "model_v4.py": "81cc0f223e2e1eb4ba2012d3434aaf1fe267c1bb0ed8ea7032eda55c72e13976",
+            "initial_state.py": "b341e60fcee4adf175ec9fdbf0038e5e6ef68e7784864732fe3718ff25276c50",
+            "scenario_graph_v4.py": "26a9f624a37c2ff45589cd2d4b48fa9f776522513f3139467b6adf81287ac1b3"
+          },
+          "clinical_validation": false
+        },
+        "runs": [
+          {
+            "seed": 44000,
+            "metrics": {
+              "objective": 65.94771198158216,
+              "coverage_p0": 0.6666666666666666,
+              "coverage_p1": 0.18181818181818182,
+              "coverage_p2": 0.2777777777777778
+            }
+          }
+        ],
+        "means": {
+          "objective": 65.94771198158216,
+          "coverage_p0": 0.6666666666666666,
+          "coverage_p1": 0.18181818181818182,
+          "coverage_p2": 0.2777777777777778
+        },
+        "explanation": "Synthetic simulation results; coverage is initiation, not survival. Numeric claims are exactly the means linked to the evidence ID."
+      },
+      "steps": [
+        "normalize",
+        "validate",
+        "select_scenario",
+        "select_policy",
+        "execute_or_retrieve",
+        "deterministic_metrics",
+        "prepare_evidence",
+        "explain",
+        "record_provenance"
+      ]
+    },
+    {
+      "id": 1,
+      "expected": "completed",
+      "direct_status": "completed",
+      "graph_status": "completed",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 20.15570001094602,
+      "graph_ms": 21.820800000568852,
+      "response": {
+        "status": "completed",
+        "evidence_id": "781458542f1577eeecfdc12a9726be5f92b63172c435d0d3af412a73e5e56f40",
+        "provenance": {
+          "request": {
+            "scenario": "reference",
+            "policy": "priority",
+            "horizon": 30,
+            "seeds": [
+              44000
+            ],
+            "engine": "extended",
+            "variant": "full",
+            "parameters": null,
+            "metrics": [
+              "objective",
+              "coverage_p0",
+              "coverage_p1",
+              "coverage_p2"
+            ],
+            "work_unit": "basal_minutes",
+            "origin": "synthetic"
+          },
+          "sources": {
+            "model.py": "fb1607699ba89f23891db89168de9db07b01bb5371a55689405f80795610d453",
+            "model_v4.py": "81cc0f223e2e1eb4ba2012d3434aaf1fe267c1bb0ed8ea7032eda55c72e13976",
+            "initial_state.py": "b341e60fcee4adf175ec9fdbf0038e5e6ef68e7784864732fe3718ff25276c50",
+            "scenario_graph_v4.py": "26a9f624a37c2ff45589cd2d4b48fa9f776522513f3139467b6adf81287ac1b3"
+          },
+          "clinical_validation": false
+        },
+        "runs": [
+          {
+            "seed": 44000,
+            "metrics": {
+              "objective": 65.1201257746856,
+              "coverage_p0": 0.6666666666666666,
+              "coverage_p1": 0.36363636363636365,
+              "coverage_p2": 0.2777777777777778
+            }
+          }
+        ],
+        "means": {
+          "objective": 65.1201257746856,
+          "coverage_p0": 0.6666666666666666,
+          "coverage_p1": 0.36363636363636365,
+          "coverage_p2": 0.2777777777777778
+        },
+        "explanation": "Synthetic simulation results; coverage is initiation, not survival. Numeric claims are exactly the means linked to the evidence ID."
+      },
+      "steps": [
+        "normalize",
+        "validate",
+        "select_scenario",
+        "select_policy",
+        "execute_or_retrieve",
+        "deterministic_metrics",
+        "prepare_evidence",
+        "explain",
+        "record_provenance"
+      ]
+    },
+    {
+      "id": 2,
+      "expected": "completed",
+      "direct_status": "completed",
+      "graph_status": "completed",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 20.150900003500283,
+      "graph_ms": 22.072499996284023,
+      "response": {
+        "status": "completed",
+        "evidence_id": "7faf1bb1e808bbd02e2f557944ee0416a335f66180ede25ce1532ae84c73c7a7",
+        "provenance": {
+          "request": {
+            "scenario": "reference",
+            "policy": "reserve",
+            "horizon": 30,
+            "seeds": [
+              44000
+            ],
+            "engine": "extended",
+            "variant": "full",
+            "parameters": null,
+            "metrics": [
+              "objective",
+              "coverage_p0",
+              "coverage_p1",
+              "coverage_p2"
+            ],
+            "work_unit": "basal_minutes",
+            "origin": "synthetic"
+          },
+          "sources": {
+            "model.py": "fb1607699ba89f23891db89168de9db07b01bb5371a55689405f80795610d453",
+            "model_v4.py": "81cc0f223e2e1eb4ba2012d3434aaf1fe267c1bb0ed8ea7032eda55c72e13976",
+            "initial_state.py": "b341e60fcee4adf175ec9fdbf0038e5e6ef68e7784864732fe3718ff25276c50",
+            "scenario_graph_v4.py": "26a9f624a37c2ff45589cd2d4b48fa9f776522513f3139467b6adf81287ac1b3"
+          },
+          "clinical_validation": false
+        },
+        "runs": [
+          {
+            "seed": 44000,
+            "metrics": {
+              "objective": 65.38449359077757,
+              "coverage_p0": 0.6666666666666666,
+              "coverage_p1": 0.36363636363636365,
+              "coverage_p2": 0.2222222222222222
+            }
+          }
+        ],
+        "means": {
+          "objective": 65.38449359077757,
+          "coverage_p0": 0.6666666666666666,
+          "coverage_p1": 0.36363636363636365,
+          "coverage_p2": 0.2222222222222222
+        },
+        "explanation": "Synthetic simulation results; coverage is initiation, not survival. Numeric claims are exactly the means linked to the evidence ID."
+      },
+      "steps": [
+        "normalize",
+        "validate",
+        "select_scenario",
+        "select_policy",
+        "execute_or_retrieve",
+        "deterministic_metrics",
+        "prepare_evidence",
+        "explain",
+        "record_provenance"
+      ]
+    },
+    {
+      "id": 3,
+      "expected": "completed",
+      "direct_status": "completed",
+      "graph_status": "completed",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 21.743499994045123,
+      "graph_ms": 23.481000011088327,
+      "response": {
+        "status": "completed",
+        "evidence_id": "fdc87ff1ba5d5bbe34ce115cb6f5b77fcbcb87150c6889905d113e7789a74703",
+        "provenance": {
+          "request": {
+            "scenario": "reference",
+            "policy": "aging",
+            "horizon": 30,
+            "seeds": [
+              44000
+            ],
+            "engine": "extended",
+            "variant": "full",
+            "parameters": null,
+            "metrics": [
+              "objective",
+              "coverage_p0",
+              "coverage_p1",
+              "coverage_p2"
+            ],
+            "work_unit": "basal_minutes",
+            "origin": "synthetic"
+          },
+          "sources": {
+            "model.py": "fb1607699ba89f23891db89168de9db07b01bb5371a55689405f80795610d453",
+            "model_v4.py": "81cc0f223e2e1eb4ba2012d3434aaf1fe267c1bb0ed8ea7032eda55c72e13976",
+            "initial_state.py": "b341e60fcee4adf175ec9fdbf0038e5e6ef68e7784864732fe3718ff25276c50",
+            "scenario_graph_v4.py": "26a9f624a37c2ff45589cd2d4b48fa9f776522513f3139467b6adf81287ac1b3"
+          },
+          "clinical_validation": false
+        },
+        "runs": [
+          {
+            "seed": 44000,
+            "metrics": {
+              "objective": 65.1201257746856,
+              "coverage_p0": 0.6666666666666666,
+              "coverage_p1": 0.36363636363636365,
+              "coverage_p2": 0.2777777777777778
+            }
+          }
+        ],
+        "means": {
+          "objective": 65.1201257746856,
+          "coverage_p0": 0.6666666666666666,
+          "coverage_p1": 0.36363636363636365,
+          "coverage_p2": 0.2777777777777778
+        },
+        "explanation": "Synthetic simulation results; coverage is initiation, not survival. Numeric claims are exactly the means linked to the evidence ID."
+      },
+      "steps": [
+        "normalize",
+        "validate",
+        "select_scenario",
+        "select_policy",
+        "execute_or_retrieve",
+        "deterministic_metrics",
+        "prepare_evidence",
+        "explain",
+        "record_provenance"
+      ]
+    },
+    {
+      "id": 4,
+      "expected": "completed",
+      "direct_status": "completed",
+      "graph_status": "completed",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 29.9683999910485,
+      "graph_ms": 31.43390000332147,
+      "response": {
+        "status": "completed",
+        "evidence_id": "d4eb52a46b556ae0eb223d7867bdb21219e75faa98344ec768ff2c5e37cd56c3",
+        "provenance": {
+          "request": {
+            "scenario": "demand_150",
+            "policy": "fifo",
+            "horizon": 30,
+            "seeds": [
+              44000
+            ],
+            "engine": "extended",
+            "variant": "full",
+            "parameters": null,
+            "metrics": [
+              "objective",
+              "coverage_p0",
+              "coverage_p1",
+              "coverage_p2"
+            ],
+            "work_unit": "basal_minutes",
+            "origin": "synthetic"
+          },
+          "sources": {
+            "model.py": "fb1607699ba89f23891db89168de9db07b01bb5371a55689405f80795610d453",
+            "model_v4.py": "81cc0f223e2e1eb4ba2012d3434aaf1fe267c1bb0ed8ea7032eda55c72e13976",
+            "initial_state.py": "b341e60fcee4adf175ec9fdbf0038e5e6ef68e7784864732fe3718ff25276c50",
+            "scenario_graph_v4.py": "26a9f624a37c2ff45589cd2d4b48fa9f776522513f3139467b6adf81287ac1b3"
+          },
+          "clinical_validation": false
+        },
+        "runs": [
+          {
+            "seed": 44000,
+            "metrics": {
+              "objective": 68.02477917744487,
+              "coverage_p0": 0.375,
+              "coverage_p1": 0.15384615384615385,
+              "coverage_p2": 0.2222222222222222
+            }
+          }
+        ],
+        "means": {
+          "objective": 68.02477917744487,
+          "coverage_p0": 0.375,
+          "coverage_p1": 0.15384615384615385,
+          "coverage_p2": 0.2222222222222222
+        },
+        "explanation": "Synthetic simulation results; coverage is initiation, not survival. Numeric claims are exactly the means linked to the evidence ID."
+      },
+      "steps": [
+        "normalize",
+        "validate",
+        "select_scenario",
+        "select_policy",
+        "execute_or_retrieve",
+        "deterministic_metrics",
+        "prepare_evidence",
+        "explain",
+        "record_provenance"
+      ]
+    },
+    {
+      "id": 5,
+      "expected": "completed",
+      "direct_status": "completed",
+      "graph_status": "completed",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 32.25709998514503,
+      "graph_ms": 34.1109000146389,
+      "response": {
+        "status": "completed",
+        "evidence_id": "3666f849e89356560dffe3c9af9817def4ec764465496fe8ecf813e63bfb49df",
+        "provenance": {
+          "request": {
+            "scenario": "demand_150",
+            "policy": "priority",
+            "horizon": 30,
+            "seeds": [
+              44000
+            ],
+            "engine": "extended",
+            "variant": "full",
+            "parameters": null,
+            "metrics": [
+              "objective",
+              "coverage_p0",
+              "coverage_p1",
+              "coverage_p2"
+            ],
+            "work_unit": "basal_minutes",
+            "origin": "synthetic"
+          },
+          "sources": {
+            "model.py": "fb1607699ba89f23891db89168de9db07b01bb5371a55689405f80795610d453",
+            "model_v4.py": "81cc0f223e2e1eb4ba2012d3434aaf1fe267c1bb0ed8ea7032eda55c72e13976",
+            "initial_state.py": "b341e60fcee4adf175ec9fdbf0038e5e6ef68e7784864732fe3718ff25276c50",
+            "scenario_graph_v4.py": "26a9f624a37c2ff45589cd2d4b48fa9f776522513f3139467b6adf81287ac1b3"
+          },
+          "clinical_validation": false
+        },
+        "runs": [
+          {
+            "seed": 44000,
+            "metrics": {
+              "objective": 68.25284935288347,
+              "coverage_p0": 0.5,
+              "coverage_p1": 0.3076923076923077,
+              "coverage_p2": 0.14814814814814814
+            }
+          }
+        ],
+        "means": {
+          "objective": 68.25284935288347,
+          "coverage_p0": 0.5,
+          "coverage_p1": 0.3076923076923077,
+          "coverage_p2": 0.14814814814814814
+        },
+        "explanation": "Synthetic simulation results; coverage is initiation, not survival. Numeric claims are exactly the means linked to the evidence ID."
+      },
+      "steps": [
+        "normalize",
+        "validate",
+        "select_scenario",
+        "select_policy",
+        "execute_or_retrieve",
+        "deterministic_metrics",
+        "prepare_evidence",
+        "explain",
+        "record_provenance"
+      ]
+    },
+    {
+      "id": 6,
+      "expected": "completed",
+      "direct_status": "completed",
+      "graph_status": "completed",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 32.40700002061203,
+      "graph_ms": 34.0829000051599,
+      "response": {
+        "status": "completed",
+        "evidence_id": "d7657355d1bafcd36bcab24ceb3e138f4c644b83b9559c78d719ecd4b54dac56",
+        "provenance": {
+          "request": {
+            "scenario": "demand_150",
+            "policy": "reserve",
+            "horizon": 30,
+            "seeds": [
+              44000
+            ],
+            "engine": "extended",
+            "variant": "full",
+            "parameters": null,
+            "metrics": [
+              "objective",
+              "coverage_p0",
+              "coverage_p1",
+              "coverage_p2"
+            ],
+            "work_unit": "basal_minutes",
+            "origin": "synthetic"
+          },
+          "sources": {
+            "model.py": "fb1607699ba89f23891db89168de9db07b01bb5371a55689405f80795610d453",
+            "model_v4.py": "81cc0f223e2e1eb4ba2012d3434aaf1fe267c1bb0ed8ea7032eda55c72e13976",
+            "initial_state.py": "b341e60fcee4adf175ec9fdbf0038e5e6ef68e7784864732fe3718ff25276c50",
+            "scenario_graph_v4.py": "26a9f624a37c2ff45589cd2d4b48fa9f776522513f3139467b6adf81287ac1b3"
+          },
+          "clinical_validation": false
+        },
+        "runs": [
+          {
+            "seed": 44000,
+            "metrics": {
+              "objective": 68.25284935288347,
+              "coverage_p0": 0.5,
+              "coverage_p1": 0.3076923076923077,
+              "coverage_p2": 0.14814814814814814
+            }
+          }
+        ],
+        "means": {
+          "objective": 68.25284935288347,
+          "coverage_p0": 0.5,
+          "coverage_p1": 0.3076923076923077,
+          "coverage_p2": 0.14814814814814814
+        },
+        "explanation": "Synthetic simulation results; coverage is initiation, not survival. Numeric claims are exactly the means linked to the evidence ID."
+      },
+      "steps": [
+        "normalize",
+        "validate",
+        "select_scenario",
+        "select_policy",
+        "execute_or_retrieve",
+        "deterministic_metrics",
+        "prepare_evidence",
+        "explain",
+        "record_provenance"
+      ]
+    },
+    {
+      "id": 7,
+      "expected": "completed",
+      "direct_status": "completed",
+      "graph_status": "completed",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 34.445199999026954,
+      "graph_ms": 36.200900009134784,
+      "response": {
+        "status": "completed",
+        "evidence_id": "6d1c84a5da311b9f86fd77723d16526c290ab10592f017bfffe7ab6447d64710",
+        "provenance": {
+          "request": {
+            "scenario": "demand_150",
+            "policy": "aging",
+            "horizon": 30,
+            "seeds": [
+              44000
+            ],
+            "engine": "extended",
+            "variant": "full",
+            "parameters": null,
+            "metrics": [
+              "objective",
+              "coverage_p0",
+              "coverage_p1",
+              "coverage_p2"
+            ],
+            "work_unit": "basal_minutes",
+            "origin": "synthetic"
+          },
+          "sources": {
+            "model.py": "fb1607699ba89f23891db89168de9db07b01bb5371a55689405f80795610d453",
+            "model_v4.py": "81cc0f223e2e1eb4ba2012d3434aaf1fe267c1bb0ed8ea7032eda55c72e13976",
+            "initial_state.py": "b341e60fcee4adf175ec9fdbf0038e5e6ef68e7784864732fe3718ff25276c50",
+            "scenario_graph_v4.py": "26a9f624a37c2ff45589cd2d4b48fa9f776522513f3139467b6adf81287ac1b3"
+          },
+          "clinical_validation": false
+        },
+        "runs": [
+          {
+            "seed": 44000,
+            "metrics": {
+              "objective": 68.25284935288347,
+              "coverage_p0": 0.5,
+              "coverage_p1": 0.3076923076923077,
+              "coverage_p2": 0.14814814814814814
+            }
+          }
+        ],
+        "means": {
+          "objective": 68.25284935288347,
+          "coverage_p0": 0.5,
+          "coverage_p1": 0.3076923076923077,
+          "coverage_p2": 0.14814814814814814
+        },
+        "explanation": "Synthetic simulation results; coverage is initiation, not survival. Numeric claims are exactly the means linked to the evidence ID."
+      },
+      "steps": [
+        "normalize",
+        "validate",
+        "select_scenario",
+        "select_policy",
+        "execute_or_retrieve",
+        "deterministic_metrics",
+        "prepare_evidence",
+        "explain",
+        "record_provenance"
+      ]
+    },
+    {
+      "id": 8,
+      "expected": "abstained",
+      "direct_status": "abstained",
+      "graph_status": "abstained",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 0.01650000922381878,
+      "graph_ms": 0.7227999740280211,
+      "response": {
+        "status": "abstained",
+        "error": "Horizon must be 10..480 integer minutes",
+        "clinical_validation": false
+      },
+      "steps": [
+        "normalize",
+        "reject"
+      ]
+    },
+    {
+      "id": 9,
+      "expected": "abstained",
+      "direct_status": "abstained",
+      "graph_status": "abstained",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 0.01379998866468668,
+      "graph_ms": 0.6384000007528812,
+      "response": {
+        "status": "abstained",
+        "error": "Observed evidence unavailable: refusing observed-data claim",
+        "clinical_validation": false
+      },
+      "steps": [
+        "normalize",
+        "reject"
+      ]
+    },
+    {
+      "id": 10,
+      "expected": "abstained",
+      "direct_status": "abstained",
+      "graph_status": "abstained",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 0.01170000177808106,
+      "graph_ms": 0.6233000021893531,
+      "response": {
+        "status": "abstained",
+        "error": "Length of stay/NHAMCS cannot substitute basal work",
+        "clinical_validation": false
+      },
+      "steps": [
+        "normalize",
+        "reject"
+      ]
+    },
+    {
+      "id": 11,
+      "expected": "abstained",
+      "direct_status": "abstained",
+      "graph_status": "abstained",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 0.012400007108226418,
+      "graph_ms": 0.6255999905988574,
+      "response": {
+        "status": "abstained",
+        "error": "Unknown or clinical metric; only simulation metrics supported",
+        "clinical_validation": false
+      },
+      "steps": [
+        "normalize",
+        "reject"
+      ]
+    },
+    {
+      "id": 12,
+      "expected": "abstained",
+      "direct_status": "abstained",
+      "graph_status": "abstained",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 0.008299975888803601,
+      "graph_ms": 0.6172000139486045,
+      "response": {
+        "status": "abstained",
+        "error": "Unknown scenario/policy",
+        "clinical_validation": false
+      },
+      "steps": [
+        "normalize",
+        "reject"
+      ]
+    },
+    {
+      "id": 13,
+      "expected": "abstained",
+      "direct_status": "abstained",
+      "graph_status": "abstained",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 0.02370000584051013,
+      "graph_ms": 0.6101999897509813,
+      "response": {
+        "status": "abstained",
+        "error": "Ambiguous request: provide a structured JSON scenario",
+        "clinical_validation": false
+      },
+      "steps": [
+        "normalize",
+        "reject"
+      ]
+    },
+    {
+      "id": 14,
+      "expected": "abstained",
+      "direct_status": "abstained",
+      "graph_status": "abstained",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 0.038700003642588854,
+      "graph_ms": 0.6275000050663948,
+      "response": {
+        "status": "abstained",
+        "error": "Invalid numerical configuration",
+        "clinical_validation": false
+      },
+      "steps": [
+        "normalize",
+        "reject"
+      ]
+    },
+    {
+      "id": 15,
+      "expected": "abstained",
+      "direct_status": "abstained",
+      "graph_status": "abstained",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 0.010499992640689015,
+      "graph_ms": 0.5996000254526734,
+      "response": {
+        "status": "abstained",
+        "error": "One to five unique integer seeds required",
+        "clinical_validation": false
+      },
+      "steps": [
+        "normalize",
+        "reject"
+      ]
+    },
+    {
+      "id": 16,
+      "expected": "abstained",
+      "direct_status": "abstained",
+      "graph_status": "abstained",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 0.03470000228844583,
+      "graph_ms": 0.7061999931465834,
+      "response": {
+        "status": "abstained",
+        "error": "Request exceeds bounded computational domain",
+        "clinical_validation": false
+      },
+      "steps": [
+        "normalize",
+        "reject"
+      ]
+    },
+    {
+      "id": 17,
+      "expected": "abstained",
+      "direct_status": "abstained",
+      "graph_status": "abstained",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 0.008100003469735384,
+      "graph_ms": 0.596500001847744,
+      "response": {
+        "status": "abstained",
+        "error": "Horizon must be 10..480 integer minutes",
+        "clinical_validation": false
+      },
+      "steps": [
+        "normalize",
+        "reject"
+      ]
+    },
+    {
+      "id": 18,
+      "expected": "abstained",
+      "direct_status": "abstained",
+      "graph_status": "abstained",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 0.007499998901039362,
+      "graph_ms": 0.5926000012550503,
+      "response": {
+        "status": "abstained",
+        "error": "Unknown scenario/policy",
+        "clinical_validation": false
+      },
+      "steps": [
+        "normalize",
+        "reject"
+      ]
+    },
+    {
+      "id": 19,
+      "expected": "abstained",
+      "direct_status": "abstained",
+      "graph_status": "abstained",
+      "exact_numeric_and_evidence_equal": true,
+      "correct_status": true,
+      "direct_ms": 0.0039000005926936865,
+      "graph_ms": 0.5893999768886715,
+      "response": {
+        "status": "abstained",
+        "error": "Unknown request field",
+        "clinical_validation": false
+      },
+      "steps": [
+        "normalize",
+        "reject"
+      ]
+    }
+  ],
+  "real_langgraph": true,
+  "real_llm": false,
+  "clinical_validation": false,
+  "cost_usd": 0.0
+}

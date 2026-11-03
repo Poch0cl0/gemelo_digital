@@ -1,0 +1,17 @@
+{
+  "evidencia_v4/fase_0/baseline_manifest.json": "9de8b714c66627a28f624c701e97781ef4135e37a5c730ce24d9ffd24fddbc75",
+  "evidencia_v4/fase_0/baseline_sources_results.zip": "cb203c39f960f5392edb08801424791d25c29a15e19a295b63a4cae1937ea765",
+  "evidencia_v4/fase_0/case_0_current.json.gz": "b6df6fe42dd9c76ea290feccd2209f7ef439f1f9da13e602f50f91691f114636",
+  "evidencia_v4/fase_0/case_1_current.json.gz": "77a640ef6f4d16ae2faf784399fa13cfc05c3dca24878ffc64b8beeb1cb5f42c",
+  "evidencia_v4/fase_0/case_2_current.json.gz": "2ab04d08318b1a0e9cfac3621906c7be19fd878465802f5a5d6df9e1217ccbae",
+  "evidencia_v4/fase_0/diagnostics.json": "0d09b2b3d2a1ad663dd8d25a284d6ed7b3565df29f9bcf6aab945b6dd800c69e",
+  "evidencia_v4/fase_0/environment_freeze.txt": "e7d3a9482da8f6e1d036f6e561732e23678e1a1a6e9c28a5c3c6ac59575d02f1",
+  "evidencia_v4/fase_0/git_branch.txt": "7b15e2c30b7095b162713153b27e88128501dc2098392d229e0bd6589808dba0",
+  "evidencia_v4/fase_0/INFORME_FASE_0.md": "3e7f4cf078b98fc3a33a4fdcbd1ef638de366ce2a4861fc0a925f7abd0fb102c",
+  "evidencia_v4/fase_0/observacion_transporte_tests.md": "492e3f035b24b527135eb5bce5584b0d1432d6a38a8d2d2f526b6b1a7088e9c3",
+  "evidencia_v4/fase_0/tests_console.log": "0d6940d70fc535d5de7ac1136275a5ea48a9589668a784d3d65c0de586ddb70c",
+  "evidencia_v4/fase_0/tests_current.json": "71b0300783ebb5e79b78e0fb4a699c496af5b1c2b2c4a6a454adbdf1f859c34d",
+  "evidencia_v4/fase_0/tests_current.log": "2307f85e2336d8e09065a4949780991e00aae770ffb0dd375bfa40c5131ced18",
+  "evidencia_v4/fase_0/tests_final.json": "6df31a719fb369881bdd06eca92b1c6eb511da467f25bbe175ed33e1c92dea7b",
+  "evidencia_v4/fase_0/tests_final.log": "3e31cc2707ff84da030c5b8dfe59fce37cf1288dba9c540994a5daec48be10b3"
+}

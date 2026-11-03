@@ -1,0 +1,47 @@
+{
+  "runs": [
+    {
+      "variant": "legacy",
+      "seconds": 0.04312539999955334,
+      "rows": 108
+    },
+    {
+      "variant": "single",
+      "seconds": 1.1877947000029963,
+      "rows": 108
+    },
+    {
+      "variant": "occupied",
+      "seconds": 1.1931547000131104,
+      "rows": 109
+    },
+    {
+      "variant": "phases",
+      "seconds": 1.316637100011576,
+      "rows": 108
+    },
+    {
+      "variant": "interruptions",
+      "seconds": 2.169237599999178,
+      "rows": 108
+    },
+    {
+      "variant": "shifts",
+      "seconds": 1.288865899987286,
+      "rows": 108
+    },
+    {
+      "variant": "full",
+      "seconds": 2.4910898999951314,
+      "rows": 109
+    }
+  ],
+  "total_seconds": 9.689965199999278,
+  "python_peak_allocated_bytes": 1249378,
+  "memory_note": "tracemalloc Python allocations, not process peak RSS",
+  "estimated_runs": 4312,
+  "estimated_seconds_conservative": 5969.0185631995555,
+  "storage_budget_bytes": 30000000,
+  "time_budget_seconds": 11938.037126399111,
+  "no_extraordinary_resources": true
+}

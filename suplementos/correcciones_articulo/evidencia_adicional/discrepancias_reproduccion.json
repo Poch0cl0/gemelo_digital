@@ -1,0 +1,38 @@
+[
+  {
+    "scenario": "demanda_200",
+    "policy": "priority",
+    "seed": 1020,
+    "metric": "max_queue",
+    "stored": 254.0,
+    "current": 255,
+    "absolute_error": 1.0
+  },
+  {
+    "scenario": "demanda_200",
+    "policy": "priority",
+    "seed": 1025,
+    "metric": "max_queue",
+    "stored": 221.0,
+    "current": 222,
+    "absolute_error": 1.0
+  },
+  {
+    "scenario": "demanda_200",
+    "policy": "tuned",
+    "seed": 1020,
+    "metric": "max_queue",
+    "stored": 254.0,
+    "current": 255,
+    "absolute_error": 1.0
+  },
+  {
+    "scenario": "demanda_200",
+    "policy": "tuned",
+    "seed": 1025,
+    "metric": "max_queue",
+    "stored": 221.0,
+    "current": 222,
+    "absolute_error": 1.0
+  }
+]

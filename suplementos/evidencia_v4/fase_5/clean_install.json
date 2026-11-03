@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "seconds": 60.330456600000616,
+  "clean_venv": true,
+  "command": "clean_env/Scripts/python.exe -m pip install --disable-pip-version-check --timeout 15 --retries 0 -r gemelo_digital/requirements-v4.txt"
+}

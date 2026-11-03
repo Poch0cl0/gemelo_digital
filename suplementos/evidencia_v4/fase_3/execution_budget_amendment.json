@@ -1,0 +1,10 @@
+{
+  "note": "Execution-only amendment before campaign; same samples, seeds, metrics and thresholds. Six worker processes, no tracemalloc during campaign.",
+  "untraced_full_run_seconds": 0.2972971000126563,
+  "workers": 6,
+  "estimated_parallel_seconds": 333.65751587576233,
+  "memory_budget_bytes": 1500000000,
+  "storage_budget_bytes": 30000000,
+  "hard_time_budget_seconds": 1800,
+  "workflow_sha256": "8d7a6456287c055e93c0f8464f6cfb7ba2bc54eebf9b6fd9eff5768c0ff1f06d"
+}

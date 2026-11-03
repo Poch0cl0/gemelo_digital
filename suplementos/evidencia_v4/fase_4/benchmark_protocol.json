@@ -1,0 +1,204 @@
+{
+  "tasks": [
+    {
+      "id": 0,
+      "payload": {
+        "scenario": "reference",
+        "policy": "fifo",
+        "horizon": 30,
+        "seeds": [
+          44000
+        ],
+        "variant": "full"
+      },
+      "expected": "completed"
+    },
+    {
+      "id": 1,
+      "payload": {
+        "scenario": "reference",
+        "policy": "priority",
+        "horizon": 30,
+        "seeds": [
+          44000
+        ],
+        "variant": "full"
+      },
+      "expected": "completed"
+    },
+    {
+      "id": 2,
+      "payload": {
+        "scenario": "reference",
+        "policy": "reserve",
+        "horizon": 30,
+        "seeds": [
+          44000
+        ],
+        "variant": "full"
+      },
+      "expected": "completed"
+    },
+    {
+      "id": 3,
+      "payload": {
+        "scenario": "reference",
+        "policy": "aging",
+        "horizon": 30,
+        "seeds": [
+          44000
+        ],
+        "variant": "full"
+      },
+      "expected": "completed"
+    },
+    {
+      "id": 4,
+      "payload": {
+        "scenario": "demand_150",
+        "policy": "fifo",
+        "horizon": 30,
+        "seeds": [
+          44000
+        ],
+        "variant": "full"
+      },
+      "expected": "completed"
+    },
+    {
+      "id": 5,
+      "payload": {
+        "scenario": "demand_150",
+        "policy": "priority",
+        "horizon": 30,
+        "seeds": [
+          44000
+        ],
+        "variant": "full"
+      },
+      "expected": "completed"
+    },
+    {
+      "id": 6,
+      "payload": {
+        "scenario": "demand_150",
+        "policy": "reserve",
+        "horizon": 30,
+        "seeds": [
+          44000
+        ],
+        "variant": "full"
+      },
+      "expected": "completed"
+    },
+    {
+      "id": 7,
+      "payload": {
+        "scenario": "demand_150",
+        "policy": "aging",
+        "horizon": 30,
+        "seeds": [
+          44000
+        ],
+        "variant": "full"
+      },
+      "expected": "completed"
+    },
+    {
+      "id": 8,
+      "payload": {
+        "horizon": -1
+      },
+      "expected": "abstained"
+    },
+    {
+      "id": 9,
+      "payload": {
+        "origin": "observed"
+      },
+      "expected": "abstained"
+    },
+    {
+      "id": 10,
+      "payload": {
+        "work_unit": "NHAMCS_LOV"
+      },
+      "expected": "abstained"
+    },
+    {
+      "id": 11,
+      "payload": {
+        "metrics": [
+          "survival"
+        ]
+      },
+      "expected": "abstained"
+    },
+    {
+      "id": 12,
+      "payload": {
+        "policy": "best"
+      },
+      "expected": "abstained"
+    },
+    {
+      "id": 13,
+      "payload": "optimize the hospital",
+      "expected": "abstained"
+    },
+    {
+      "id": 14,
+      "payload": {
+        "parameters": {
+          "beta": 2
+        }
+      },
+      "expected": "abstained"
+    },
+    {
+      "id": 15,
+      "payload": {
+        "seeds": [
+          1,
+          1
+        ]
+      },
+      "expected": "abstained"
+    },
+    {
+      "id": 16,
+      "payload": {
+        "parameters": {
+          "service_scale": 100
+        }
+      },
+      "expected": "abstained"
+    },
+    {
+      "id": 17,
+      "payload": {
+        "horizon": true
+      },
+      "expected": "abstained"
+    },
+    {
+      "id": 18,
+      "payload": {
+        "scenario": "missing"
+      },
+      "expected": "abstained"
+    },
+    {
+      "id": 19,
+      "payload": {
+        "extra": "invented"
+      },
+      "expected": "abstained"
+    }
+  ],
+  "acceptance": "All numeric outputs and evidence IDs equal direct deterministic baseline; all invalid requests abstain; no advantage presumed",
+  "real_llm": false,
+  "mocks_in_benchmark": false,
+  "cost": "No paid model calls",
+  "retries": "Covered separately by injected transient-error tests"
+}

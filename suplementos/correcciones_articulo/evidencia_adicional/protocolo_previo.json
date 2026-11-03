@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-31",
+  "registered_before_this_run": true,
+  "clinical_validation": false,
+  "note": "Protocol fixed before this supplementary run, after observing original article; not original study preregistration.",
+  "scrambles": [
+    2026103101,
+    2026103102,
+    2026103103,
+    2026103104
+  ],
+  "nested_N": [
+    64,
+    128,
+    256
+  ],
+  "common_seeds": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004
+  ],
+  "stability_absolute_tolerance": 0.03,
+  "ci_halfwidth_tolerance": 0.05,
+  "criterion": "For all four indices: absolute change of across-scramble mean N128 to N256 <=0.03 AND t CI halfwidth across four independent scrambles at N256 <=0.05. Numerical diagnostic only, not mathematical proof.",
+  "policy_seeds": [
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020,
+    3021,
+    3022,
+    3023,
+    3024,
+    3025,
+    3026,
+    3027,
+    3028,
+    3029
+  ],
+  "policies": [
+    "fifo",
+    "priority",
+    "aging_30",
+    "aging_60",
+    "aging_120"
+  ],
+  "policy_analysis": "Exploratory fixed-policy comparison; no winner selected as confirmatory. Marginal paired t intervals across 30 common seeds; no claims of clinical fairness thresholds.",
+  "original_reproduction": "450 historical rows, all numerical metrics excluding runtime_s, absolute tolerance 1e-8",
+  "python": "3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]",
+  "numpy": "2.4.4",
+  "scipy": "1.16.2",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "model_sha256": "fb1607699ba89f23891db89168de9db07b01bb5371a55689405f80795610d453"
+}

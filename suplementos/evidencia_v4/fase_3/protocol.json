@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "date": "2026-10-31",
+  "label": "new-post-V3-synthetic-exploratory",
+  "variants": [
+    "legacy",
+    "single",
+    "occupied",
+    "phases",
+    "interruptions",
+    "shifts",
+    "full"
+  ],
+  "policies": [
+    "fifo",
+    "priority",
+    "reserve",
+    "aging"
+  ],
+  "scenarios": [
+    "reference",
+    "demand_150"
+  ],
+  "seeds": [
+    41000,
+    41001,
+    41002,
+    41003,
+    41004,
+    41005,
+    41006,
+    41007,
+    41008,
+    41009,
+    41010,
+    41011,
+    41012,
+    41013,
+    41014,
+    41015,
+    41016,
+    41017,
+    41018,
+    41019
+  ],
+  "horizon": 120,
+  "main_runs": 1120,
+  "uncertainty": {
+    "load_structures": [
+      "staff",
+      "resource_peak"
+    ],
+    "service_scales": [
+      0.8,
+      1.0,
+      1.2
+    ],
+    "initial_fatigue": [
+      0.0,
+      0.5
+    ],
+    "seeds": [
+      42000,
+      42001,
+      42002,
+      42003,
+      42004,
+      42005,
+      42006,
+      42007,
+      42008,
+      42009
+    ],
+    "runs": 120
+  },
+  "sobol": {
+    "scrambles": [
+      53001,
+      53002,
+      53003,
+      53004
+    ],
+    "nested_N": [
+      32,
+      64
+    ],
+    "common_seeds": [
+      43000,
+      43001,
+      43002
+    ],
+    "service_scale": [
+      0.8,
+      1.2
+    ],
+    "beta": [
+      0.0,
+      0.5
+    ],
+    "variant": "full",
+    "runs": 3072,
+    "stability_change_limit": 0.03,
+    "halfwidth_limit": 0.05
+  },
+  "metrics": [
+    "objective",
+    "wait_censored",
+    "coverage_p0",
+    "coverage_p1",
+    "coverage_p2",
+    "completed",
+    "waiting",
+    "in_service",
+    "abandoned",
+    "dead",
+    "transferred",
+    "util_doctors",
+    "util_nurses"
+  ],
+  "statistical_plan": "Paired differences by scenario, variant and common seed; t(19) marginal CI and dz; Holm across all policy-vs-priority contrasts; no clinical/confirmatory claims. Structural and initial-state uncertainty is a factorial scenario analysis, not a calibrated posterior.",
+  "source_hashes": {
+    "model.py": "fb1607699ba89f23891db89168de9db07b01bb5371a55689405f80795610d453",
+    "model_v4.py": "81cc0f223e2e1eb4ba2012d3434aaf1fe267c1bb0ed8ea7032eda55c72e13976",
+    "initial_state.py": "b341e60fcee4adf175ec9fdbf0038e5e6ef68e7784864732fe3718ff25276c50",
+    "scenario_graph_v4.py": "26a9f624a37c2ff45589cd2d4b48fa9f776522513f3139467b6adf81287ac1b3"
+  },
+  "pilot": {
+    "runs": [
+      {
+        "variant": "legacy",
+        "seconds": 0.04312539999955334,
+        "rows": 108
+      },
+      {
+        "variant": "single",
+        "seconds": 1.1877947000029963,
+        "rows": 108
+      },
+      {
+        "variant": "occupied",
+        "seconds": 1.1931547000131104,
+        "rows": 109
+      },
+      {
+        "variant": "phases",
+        "seconds": 1.316637100011576,
+        "rows": 108
+      },
+      {
+        "variant": "interruptions",
+        "seconds": 2.169237599999178,
+        "rows": 108
+      },
+      {
+        "variant": "shifts",
+        "seconds": 1.288865899987286,
+        "rows": 108
+      },
+      {
+        "variant": "full",
+        "seconds": 2.4910898999951314,
+        "rows": 109
+      }
+    ],
+    "total_seconds": 9.689965199999278,
+    "python_peak_allocated_bytes": 1249378,
+    "memory_note": "tracemalloc Python allocations, not process peak RSS",
+    "estimated_runs": 4312,
+    "estimated_seconds_conservative": 5969.0185631995555,
+    "storage_budget_bytes": 30000000,
+    "time_budget_seconds": 11938.037126399111,
+    "no_extraordinary_resources": true
+  }
+}

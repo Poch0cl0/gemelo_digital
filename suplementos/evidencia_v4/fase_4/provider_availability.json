@@ -1,0 +1,13 @@
+{
+  "credentials_present": {
+    "GEMINI_API_KEY": false,
+    "GOOGLE_API_KEY": false,
+    "DEEPSEEK_API_KEY": false
+  },
+  "default_local_ollama": {
+    "reachable": false,
+    "error_type": "URLError"
+  },
+  "secret_values_logged": false,
+  "paid_calls_made": 0
+}

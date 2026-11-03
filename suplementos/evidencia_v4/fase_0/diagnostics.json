@@ -1,0 +1,307 @@
+{
+  "hashes": [
+    {
+      "config": {
+        "horizon": 480,
+        "dt": 1.0,
+        "demand": 1.0,
+        "doctors": 8,
+        "nurses": 12,
+        "beds": 12,
+        "icu": 4,
+        "ventilators": 3,
+        "beta": 0.25,
+        "tau": 60.0,
+        "service_scale": 1.0,
+        "priority_weights": [
+          6,
+          3,
+          1
+        ],
+        "unfinished_penalty": 60.0
+      },
+      "policy": {
+        "name": "fifo",
+        "reserve": 0,
+        "release": 0,
+        "aging_interval": 60.0
+      },
+      "seed": 1000,
+      "expected": "3851b91247328a16d94fe7f902b4697607f2beeb58b4adb0a4afb78cc4a5f7ea",
+      "representations": {
+        "default": "41c54d8e64c2a97f6d32471ea852bf0673045a1eb14fcab84bcbae3bf792eab2",
+        "compact": "f4b18d482761fb9272ba0fc64af51cf37e606ab9ffa8fb4584dc663579efbfbe",
+        "integral_floats_to_ints": "8973ce75d74957cd96b24f001a4a5c24ff50668497349227955062e54d14d4ff"
+      },
+      "matches_historical": false,
+      "current_repeat_semantically_equal": true,
+      "source_original_recovered": false
+    },
+    {
+      "config": {
+        "horizon": 480,
+        "dt": 1.0,
+        "demand": 1.0,
+        "doctors": 8,
+        "nurses": 12,
+        "beds": 12,
+        "icu": 4,
+        "ventilators": 3,
+        "beta": 0.25,
+        "tau": 60.0,
+        "service_scale": 1.0,
+        "priority_weights": [
+          6,
+          3,
+          1
+        ],
+        "unfinished_penalty": 60.0
+      },
+      "policy": {
+        "name": "priority",
+        "reserve": 0,
+        "release": 0,
+        "aging_interval": 60.0
+      },
+      "seed": 1000,
+      "expected": "be80648ee588bc075ce278264201621e1f0bbe761d4b977e335b51f718402c69",
+      "representations": {
+        "default": "6f74deab3f522e758697f4958ee98b18c3512fcb11bd32f5d7daa989ff3cf917",
+        "compact": "01f053fdb1eccf1fa82aaab8b411db612686934f1ed880a53fa9e513530801fc",
+        "integral_floats_to_ints": "890bee8fb8910e64c2f92a08343ffeaf5f0c68132b385ecdd97ec81034f3e21e"
+      },
+      "matches_historical": false,
+      "current_repeat_semantically_equal": true,
+      "source_original_recovered": false
+    },
+    {
+      "config": {
+        "horizon": 480,
+        "dt": 1.0,
+        "demand": 2,
+        "doctors": 8,
+        "nurses": 12,
+        "beds": 12,
+        "icu": 4,
+        "ventilators": 3,
+        "beta": 0.25,
+        "tau": 60.0,
+        "service_scale": 1.0,
+        "priority_weights": [
+          6,
+          3,
+          1
+        ],
+        "unfinished_penalty": 60.0
+      },
+      "policy": {
+        "name": "tuned",
+        "reserve": 2,
+        "release": 60,
+        "aging_interval": 60.0
+      },
+      "seed": 1001,
+      "expected": "d6bd70e258fb74508a30655a943b6693bc7cc28325a13f792b3728d26a5b6753",
+      "representations": {
+        "default": "fd9e54af2565d4d5411292138605d533c93b31c0a68b24ce82804d9a3897dca3",
+        "compact": "20ee6d9b118e2da53c391f07b6892b0cf19f3906f135240af8acaaa510525db8",
+        "integral_floats_to_ints": "26b59e38fdfc902fd94e0e68ac3c111620a5ce9faa38cb8ccdacddac6860f534"
+      },
+      "matches_historical": false,
+      "current_repeat_semantically_equal": true,
+      "source_original_recovered": false
+    }
+  ],
+  "max_queue": [
+    {
+      "seed": 1020,
+      "policy": "priority",
+      "historical": 254,
+      "max_excluding_H": 254,
+      "queue_at_H": 255,
+      "current": 255,
+      "counterfactual_exclusion_matches": true,
+      "last_trace_rows": [
+        {
+          "t": 478.0,
+          "queue": 253,
+          "active": 8,
+          "finished": 75,
+          "fatigue": 0.9996673836922998,
+          "beds": 4,
+          "icu": 4,
+          "ventilators": 1,
+          "doctors": 8,
+          "nurses": 8
+        },
+        {
+          "t": 479.0,
+          "queue": 254,
+          "active": 8,
+          "finished": 76,
+          "fatigue": 0.9996729272974282,
+          "beds": 4,
+          "icu": 4,
+          "ventilators": 1,
+          "doctors": 8,
+          "nurses": 8
+        },
+        {
+          "t": 480.0,
+          "queue": 255,
+          "active": 8,
+          "finished": 76,
+          "fatigue": 0.9996783785091378,
+          "beds": 4,
+          "icu": 4,
+          "ventilators": 1,
+          "doctors": 8,
+          "nurses": 8
+        }
+      ]
+    },
+    {
+      "seed": 1020,
+      "policy": "tuned",
+      "historical": 254,
+      "max_excluding_H": 254,
+      "queue_at_H": 255,
+      "current": 255,
+      "counterfactual_exclusion_matches": true,
+      "last_trace_rows": [
+        {
+          "t": 478.0,
+          "queue": 253,
+          "active": 8,
+          "finished": 75,
+          "fatigue": 0.9996673836922998,
+          "beds": 4,
+          "icu": 4,
+          "ventilators": 1,
+          "doctors": 8,
+          "nurses": 8
+        },
+        {
+          "t": 479.0,
+          "queue": 254,
+          "active": 8,
+          "finished": 76,
+          "fatigue": 0.9996729272974282,
+          "beds": 4,
+          "icu": 4,
+          "ventilators": 1,
+          "doctors": 8,
+          "nurses": 8
+        },
+        {
+          "t": 480.0,
+          "queue": 255,
+          "active": 8,
+          "finished": 76,
+          "fatigue": 0.9996783785091378,
+          "beds": 4,
+          "icu": 4,
+          "ventilators": 1,
+          "doctors": 8,
+          "nurses": 8
+        }
+      ]
+    },
+    {
+      "seed": 1025,
+      "policy": "priority",
+      "historical": 221,
+      "max_excluding_H": 221,
+      "queue_at_H": 222,
+      "current": 222,
+      "counterfactual_exclusion_matches": true,
+      "last_trace_rows": [
+        {
+          "t": 478.0,
+          "queue": 221,
+          "active": 8,
+          "finished": 69,
+          "fatigue": 0.9996602892132741,
+          "beds": 4,
+          "icu": 4,
+          "ventilators": 1,
+          "doctors": 8,
+          "nurses": 8
+        },
+        {
+          "t": 479.0,
+          "queue": 221,
+          "active": 8,
+          "finished": 69,
+          "fatigue": 0.9996659510597196,
+          "beds": 4,
+          "icu": 4,
+          "ventilators": 1,
+          "doctors": 8,
+          "nurses": 8
+        },
+        {
+          "t": 480.0,
+          "queue": 222,
+          "active": 8,
+          "finished": 69,
+          "fatigue": 0.9996715185420576,
+          "beds": 4,
+          "icu": 4,
+          "ventilators": 1,
+          "doctors": 8,
+          "nurses": 8
+        }
+      ]
+    },
+    {
+      "seed": 1025,
+      "policy": "tuned",
+      "historical": 221,
+      "max_excluding_H": 221,
+      "queue_at_H": 222,
+      "current": 222,
+      "counterfactual_exclusion_matches": true,
+      "last_trace_rows": [
+        {
+          "t": 478.0,
+          "queue": 221,
+          "active": 8,
+          "finished": 69,
+          "fatigue": 0.9996602892132741,
+          "beds": 4,
+          "icu": 4,
+          "ventilators": 1,
+          "doctors": 8,
+          "nurses": 8
+        },
+        {
+          "t": 479.0,
+          "queue": 221,
+          "active": 8,
+          "finished": 69,
+          "fatigue": 0.9996659510597196,
+          "beds": 4,
+          "icu": 4,
+          "ventilators": 1,
+          "doctors": 8,
+          "nurses": 8
+        },
+        {
+          "t": 480.0,
+          "queue": 222,
+          "active": 8,
+          "finished": 69,
+          "fatigue": 0.9996715185420576,
+          "beds": 4,
+          "icu": 4,
+          "ventilators": 1,
+          "doctors": 8,
+          "nurses": 8
+        }
+      ]
+    }
+  ],
+  "conclusion": "All four historical maxima equal the current trace maximum with H excluded. This demonstrates the terminal-metric counterfactual for these cases, not recovery/identity of historical source. Hash cause remains open.",
+  "baseline_preserved": true
+}
